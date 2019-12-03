@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class changement_scene_menu_start : MonoBehaviour
 {
     public string sceneNameToLoad ;
-    bool allowchange=false;
     bool startCountdown=false;
     public GameObject imageFade;
     float countdown = 1f;
