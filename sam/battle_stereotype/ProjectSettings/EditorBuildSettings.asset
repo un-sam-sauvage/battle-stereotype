@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/kilian.unity
     guid: 3998641d867fdb54f9010f401a1158dc
   - enabled: 1
-    path: Assets/Scenes/timothe.unity
+    path: Assets/Scenes/timotheMenuPause.unity
     guid: 6ce7293de7924d342bb3b7bcaab91450
   m_configObjects: {}
