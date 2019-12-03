@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/timotheMenuPause.unity
     guid: 6ce7293de7924d342bb3b7bcaab91450
+  - enabled: 1
+    path: Assets/Scenes/menu_start.unity
+    guid: 3e7e5bdb72d80534ab8b0fc45c0dc410
   m_configObjects: {}
