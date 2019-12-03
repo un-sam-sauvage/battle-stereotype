@@ -209,7 +209,7 @@ GameObject:
   - component: {fileID: 199086501}
   - component: {fileID: 199086500}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Text2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -361,39 +361,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   combats:
-  - stereotype: 
-    rep1: 
-    rep2: 
-    rep3: 
-    rep4: 
+  - name: M0
+    stereotype: 
+    rep1: {fileID: 105496512}
+    rep2: {fileID: 1431583198}
+    rep3: {fileID: 199086500}
+    rep4: {fileID: 1683059686}
     monsterSprite: {fileID: 0}
     answer: 
-  - stereotype: 
-    rep1: 
-    rep2: 
-    rep3: 
-    rep4: 
+  - name: M1
+    stereotype: 
+    rep1: {fileID: 105496512}
+    rep2: {fileID: 1431583198}
+    rep3: {fileID: 199086500}
+    rep4: {fileID: 1683059686}
     monsterSprite: {fileID: 0}
     answer: 
-  - stereotype: 
-    rep1: 
-    rep2: 
-    rep3: 
-    rep4: 
+  - name: M2
+    stereotype: 
+    rep1: {fileID: 0}
+    rep2: {fileID: 0}
+    rep3: {fileID: 0}
+    rep4: {fileID: 0}
     monsterSprite: {fileID: 0}
     answer: 
-  - stereotype: 
-    rep1: 
-    rep2: 
-    rep3: 
-    rep4: 
+  - name: 
+    stereotype: 
+    rep1: {fileID: 0}
+    rep2: {fileID: 0}
+    rep3: {fileID: 0}
+    rep4: {fileID: 0}
     monsterSprite: {fileID: 0}
     answer: 
-  - stereotype: 
-    rep1: 
-    rep2: 
-    rep3: 
-    rep4: 
+  - name: M3
+    stereotype: 
+    rep1: {fileID: 0}
+    rep2: {fileID: 0}
+    rep3: {fileID: 0}
+    rep4: {fileID: 0}
     monsterSprite: {fileID: 0}
     answer: 
 --- !u!1 &908021866
@@ -911,7 +916,7 @@ GameObject:
   - component: {fileID: 1431583199}
   - component: {fileID: 1431583198}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Text1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -988,7 +993,7 @@ GameObject:
   - component: {fileID: 1683059687}
   - component: {fileID: 1683059686}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Text3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
