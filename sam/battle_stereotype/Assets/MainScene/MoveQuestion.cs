@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MoveQuestion : MonoBehaviour
 {
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +14,7 @@ public class MoveQuestion : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
@@ -20,6 +22,5 @@ public class MoveQuestion : MonoBehaviour
             touchPosition.z = 0;
             transform.position = touchPosition;
         }
-        
     }
 }
