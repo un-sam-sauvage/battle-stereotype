@@ -19,12 +19,28 @@ public class Health : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        for (int i = 0; i < hearts.Length; i++)
-        {if(i < numOfHearts)
+        if(health > numOfHearts)
+        {
+            health = numOfHearts;
+        }
+
+
+        for (int i = 0; i < hearts.Length; i++) {//SetUp la vie si i est inférieur à la vie total (5) 
+
+            if (i < health) // Fait apparaitre le Sprite "fullheart"
+            {
+                hearts[i].sprite = fullheart;
+            }
+            else
+            {
+                hearts[i].sprite = emptyHeart; // Fait apparaitre le Sprite "Emptyheart" à la place de "fullheart"
+            }
+
+            if (i < numOfHearts)// Rend visible hearts si i inférieur à numOfHearts
             {
                 hearts[i].enabled = true;
             } else
-            {
+            {// Rend invisible hearts si i supérieur à numOfHearts
                 hearts[i].enabled = false;
             }
 
