@@ -35,15 +35,15 @@ public class AudioManager : MonoBehaviour
 
 
 
-    public void Play(string nameSound)
+    public void Play(string name)
     {
-        Sound s = Array.Find(sounds, sound => sound.name == nameSound); //On joue le son nommé par le nom tapé
+        Sound s = Array.Find(sounds, sound => sound.name == name); //On joue le son nommé par le nom tapé
         s.source.Play();
     }
 
-    public void Stop(string nameSound)
+    public void Stop(string name)
     {
-        Sound s = Array.Find(sounds, sound => sound.name == nameSound); //On arrête le son nommé par le nom tapé
+        Sound s = Array.Find(sounds, sound => sound.name == name); //On arrête le son nommé par le nom tapé
         s.source.Stop();
     }
 }

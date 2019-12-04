@@ -62,7 +62,7 @@ public class Battle : MonoBehaviour
 [System.Serializable]
 public class Combat
 {
-    public string name;
+    public string monsterName;
     public string stereotype;
     public Text stePrint;
     public string reponse1, reponse2, reponse3;
