@@ -13,6 +13,9 @@ public class Health : MonoBehaviour
     public Sprite emptyHeart;
     public Animator animationHp1;
     public Animator animationHp2;
+    public Animator animationHp3;
+    public Animator animationHp4;
+    public Animator animationHp5;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +24,7 @@ public class Health : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    { // Test pour voir animation coeurs 
         
         if (Input.GetKeyDown(KeyCode.A))
         {
@@ -31,7 +34,7 @@ public class Health : MonoBehaviour
         {
            
             animationHp1.SetBool("Coeur4", true);
-
+           
         }
         if (Input.GetKeyDown(KeyCode.B) && health == 4)
         {
@@ -39,8 +42,27 @@ public class Health : MonoBehaviour
             animationHp2.SetBool("Coeur3", true);
 
         }
+        if (Input.GetKeyDown(KeyCode.B) && health == 3)
+        {
+            animationHp3.SetBool("Coeur2", true);
+
+        }
+        if (Input.GetKeyDown(KeyCode.B) && health == 2)
+        {
+            animationHp4.SetBool("Coeur1", true);
+        }
+        if (Input.GetKeyDown(KeyCode.B) && health == 1)
+        {
+            animationHp5.SetBool("Coeur", true);
+           
+        }
+        if (health <= 0)// Fait apparaitre le panel GameOver
+        {
+            GameOver gameOver = FindObjectOfType<GameOver>();
+            gameOver.GameOverOn();
 
 
+        }
 
 
         if (health > numOfHearts)
@@ -71,13 +93,7 @@ public class Health : MonoBehaviour
             }
 
         }
-        if (health <= 0)
-        {
-            GameOver gameOver = FindObjectOfType<GameOver>();
-            gameOver.GameOverOn();
-            
-
-        }
+       
 
     }
 }

@@ -127,10 +127,27 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Size.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Size.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2193167955680545546, guid: c9c92d9a978858244adc0bc7f31cddf7,
         type: 3}
       propertyPath: m_Name
       value: Prefab_GameOver
+      objectReference: {fileID: 0}
+    - target: {fileID: 5217770631449693914, guid: c9c92d9a978858244adc0bc7f31cddf7,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0.21568628
       objectReference: {fileID: 0}
     - target: {fileID: 5217770632959762837, guid: c9c92d9a978858244adc0bc7f31cddf7,
         type: 3}

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2279577783627735153}
   - component: {fileID: 2279577783627735155}
   - component: {fileID: 2279577783627735152}
+  - component: {fileID: 5927793284888613017}
   m_Layer: 5
   m_Name: Coeur2
   m_TagString: Untagged
@@ -73,6 +74,25 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!95 &5927793284888613017
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2279577783627735158}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 779b70b07b6a40d4c943d8efdf7bf864, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2279577784238260541
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,6 +366,7 @@ GameObject:
   - component: {fileID: 2279577784478680419}
   - component: {fileID: 2279577784478680349}
   - component: {fileID: 2279577784478680418}
+  - component: {fileID: 782156715596439139}
   m_Layer: 5
   m_Name: Coeur
   m_TagString: Untagged
@@ -408,6 +429,25 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!95 &782156715596439139
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2279577784478680416}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6ad11af15fe953b48b5780b0d30969f0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2279577784766805225
 GameObject:
   m_ObjectHideFlags: 0
@@ -512,6 +552,7 @@ GameObject:
   - component: {fileID: 2279577784806050175}
   - component: {fileID: 2279577784806050169}
   - component: {fileID: 2279577784806050174}
+  - component: {fileID: 9092523609288818661}
   m_Layer: 5
   m_Name: Coeur1
   m_TagString: Untagged
@@ -574,6 +615,25 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!95 &9092523609288818661
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2279577784806050172}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f99305861c2fd4c41a5a050a7538fa9b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2279577785029199119
 GameObject:
   m_ObjectHideFlags: 0
@@ -629,6 +689,9 @@ MonoBehaviour:
   emptyHeart: {fileID: 21300000, guid: 2728920e61ac6bb46a9d7a4a4f63b466, type: 3}
   animationHp1: {fileID: 8849844207209747007}
   animationHp2: {fileID: 2359151939425629977}
+  animationHp3: {fileID: 5927793284888613017}
+  animationHp4: {fileID: 9092523609288818661}
+  animationHp5: {fileID: 782156715596439139}
 --- !u!1 &5306405804298545689
 GameObject:
   m_ObjectHideFlags: 0
