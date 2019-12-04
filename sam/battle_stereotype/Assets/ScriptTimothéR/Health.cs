@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+
 public class Health : MonoBehaviour
 {
     public int health;
@@ -10,8 +11,9 @@ public class Health : MonoBehaviour
     public Image[] hearts;
     public Sprite fullheart;
     public Sprite emptyHeart;
+
     // Start is called before the first frame update
-     void Start()
+    void Start()
     {
         
     }
@@ -19,13 +21,14 @@ public class Health : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(health > numOfHearts)
+        if (health > numOfHearts)
         {
             health = numOfHearts;
         }
 
 
-        for (int i = 0; i < hearts.Length; i++) {//SetUp la vie si i est inférieur à la vie total (5) 
+        for (int i = 0; i < hearts.Length; i++)
+        {//SetUp la vie si i est inférieur à la vie total (5) 
 
             if (i < health) // Fait apparaitre le Sprite "fullheart"
             {
@@ -39,18 +42,12 @@ public class Health : MonoBehaviour
             if (i < numOfHearts)// Rend visible hearts si i inférieur à numOfHearts
             {
                 hearts[i].enabled = true;
-            } else
+            }
+            else
             {// Rend invisible hearts si i supérieur à numOfHearts
                 hearts[i].enabled = false;
             }
 
         }
-        {
-
-
-        }
-
-
-
     }
 }
