@@ -21,7 +21,14 @@ public class Health : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (health > numOfHearts)
+        if (Input.touchCount > 0)
+        {
+
+            health--;
+
+        }
+
+            if (health > numOfHearts)
         {
             health = numOfHearts;
         }
