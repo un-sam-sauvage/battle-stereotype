@@ -7,7 +7,6 @@ public class DragNDrop2 : MonoBehaviour , IDragHandler, IEndDragHandler , IBegin
 {
 
     Vector2 startPosition;
-    Vector2 endPosition;
     public static GameObject objectBeingDrag;
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -28,11 +27,6 @@ public class DragNDrop2 : MonoBehaviour , IDragHandler, IEndDragHandler , IBegin
     public void OnEndDrag(PointerEventData eventData)
     {
         objectBeingDrag = null;
-        endPosition = transform.position;
         transform.position = startPosition;
-        if (endPosition != startPosition)
-        {
-
-        }
     }
 }
