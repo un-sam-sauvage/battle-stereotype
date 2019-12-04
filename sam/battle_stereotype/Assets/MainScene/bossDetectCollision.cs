@@ -23,8 +23,6 @@ public class bossDetectCollision : MonoBehaviour, IDropHandler
         if (!item)
         {
             DragNDrop2.objectBeingDrag.transform.SetParent(transform);
-            
-            DragNDrop2.objectBeingDrag.SetActive(false);
 
         }
     }

@@ -8,6 +8,7 @@ public class DragNDrop2 : MonoBehaviour , IDragHandler, IEndDragHandler , IBegin
 
     Vector2 startPosition;
     public static GameObject objectBeingDrag;
+    public GameObject panel;
 
     public void OnBeginDrag(PointerEventData eventData)
     {
