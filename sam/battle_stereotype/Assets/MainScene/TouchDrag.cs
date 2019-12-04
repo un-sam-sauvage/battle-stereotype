@@ -17,7 +17,9 @@ public class TouchDrag : TouchSprite
     }
     void onFisrtTouch()
     {
-        Vector2 pos;
-        pos = new Vector2(Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position).x, Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position).y);
+        Vector3 pos;
+        pos = new Vector3(Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position).x, Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position).y, Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position).z);
+        transform.position = pos;
+
     }
 }
