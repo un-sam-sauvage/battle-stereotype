@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour
 {
+    public string scenetoload;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,5 +23,12 @@ public class GameOver : MonoBehaviour
 
 
         SceneManager.LoadScene("menu_start");
+    }
+    public void RestartTheLvl()
+    {
+
+        SceneManager.LoadScene(scenetoload);
+
+
     }
 }
