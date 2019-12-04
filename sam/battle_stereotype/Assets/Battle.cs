@@ -7,21 +7,27 @@ public class Battle : MonoBehaviour
 {
     public Combat[] combats;
     int x;
+    Combat combats1;
+
+    public Button button1, button2, button3;
     // Start is called before the first frame update
     void Start()
     {
         x = Random.Range(0, 5);
-        Combat combats1 = combats[x];
+        combats1 = combats[x];
+        
         Debug.Log(x);
 
         combats1.stePrint.text = combats1.stereotype;
 
-        
-        
+        combats1.rep1.text = combats1.reponse1;
+        combats1.rep2.text = combats1.reponse2;
+        combats1.rep3.text = combats1.reponse3;
+
+
     }
 
-    // Update is called once per frame
-    void Update()
+    public void PlayerTurn()
     {
         
     }
@@ -34,6 +40,8 @@ public class Combat
     public string name;
     public string stereotype;
     public Text stePrint;
-    public Text rep1, rep2, rep3, rep4;
-    public string answer;
+    public string reponse1, reponse2, reponse3;
+    public Text rep1, rep2, rep3;
+    public Text answer;
+    public Text goodAnswer;
 }
