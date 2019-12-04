@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class DragNDrop2 : MonoBehaviour , IDragHandler, IEndDragHandler , IBeginDragHandler
 {
@@ -10,6 +11,12 @@ public class DragNDrop2 : MonoBehaviour , IDragHandler, IEndDragHandler , IBegin
     public static GameObject objectBeingDrag;
     public GameObject panel;
 
+    public Text answerDragged;
+
+    void Start()
+    {
+        
+    }
     public void OnBeginDrag(PointerEventData eventData)
     {
         startPosition = transform.position;
@@ -29,5 +36,8 @@ public class DragNDrop2 : MonoBehaviour , IDragHandler, IEndDragHandler , IBegin
     {
         objectBeingDrag = null;
         transform.position = startPosition;
+
+        Battle battle = FindObjectOfType<Battle>();
+        battle.PrintAnswer(answerDragged);
     }
 }

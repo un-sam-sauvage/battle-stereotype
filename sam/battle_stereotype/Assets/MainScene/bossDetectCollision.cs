@@ -12,7 +12,8 @@ public class bossDetectCollision : MonoBehaviour, IDropHandler
             // le panel boss accepte d'avoir 4 enfants.
             if (transform.childCount > 0)
             {
-                DragNDrop2.objectBeingDrag.SetActive(false);
+                //DragNDrop2.objectBeingDrag.SetActive(false);
+                
                 return transform.GetChild(0).gameObject;
             }
             return null;

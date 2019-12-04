@@ -11,7 +11,7 @@ public class Battle : MonoBehaviour
     public Text victoryText;
     
 
-    public Button button1, button2, button3;
+    //public Button button1, button2, button3;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +31,7 @@ public class Battle : MonoBehaviour
 
     }
 
-    public void PlayerTurn()
+    /*public void PlayerTurn()
     {
         Button b1 = button1.GetComponent<Button>();
         Button b2 = button2.GetComponent<Button>();
@@ -41,7 +41,7 @@ public class Battle : MonoBehaviour
         b2.onClick.AddListener(() => PrintAnswer(combats1.rep2));
         b3.onClick.AddListener(() => PrintAnswer(combats1.rep3));
         Debug.Log("Test");    
-    }
+    }*/
 
     public void PrintAnswer(Text a)
     {
