@@ -12,6 +12,7 @@ public class changement_scene_menu_start : MonoBehaviour
 
     public void ChangementScene()
     {
+        // quand on clique sur le bouton, lance l'animation et le compte à rebours
         imageFade.SetActive(true);
         startCountdown = true;          
     }
@@ -22,6 +23,7 @@ public class changement_scene_menu_start : MonoBehaviour
             countdown -= Time.deltaTime;
             Debug.Log(countdown);
         }
+        //une fois que le compte à rebours est fini, change de scène.
         if (countdown <= 0)
         {
             SceneManager.LoadScene(sceneNameToLoad);
