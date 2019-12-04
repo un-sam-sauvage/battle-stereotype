@@ -11,7 +11,7 @@ public class GameOver : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        Time.timeScale = 1f;
     }
      void Awake()
     {
@@ -26,14 +26,16 @@ public class GameOver : MonoBehaviour
     public void LoadMenu()
     {//Sert à Load le MenuStart 
 
-        SceneManager.LoadScene("menu_start");
         Time.timeScale = 1f;
+        SceneManager.LoadScene("menu_start");
+        
     }
     public void RestartTheLvl()
     {// Recharge le niv ou est "mort" le joueur
 
-        SceneManager.LoadScene(scenetoload);
         Time.timeScale = 1f;
+        SceneManager.LoadScene(scenetoload);
+        
 
     }
     public void GameOverOn()
