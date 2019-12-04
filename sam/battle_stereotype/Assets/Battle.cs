@@ -6,26 +6,15 @@ using UnityEngine.UI;
 public class Battle : MonoBehaviour
 {
     public Combat[] combats;
+    int x;
     // Start is called before the first frame update
     void Start()
     {
-        Combat combats1 = combats[1];
-        Debug.Log(combats1);
-        if(combats1 == combats[0])
-        {
-            combats1.rep1.text = "Test";
-            combats1.rep2.text = "Test";
-            combats1.rep3.text = "Test";
-            combats1.rep4.text = "Test";
-        }
-        else if(combats1 == combats[1])
-        {
-            combats1.rep1.text = "Là c'est le deuxième";
-            combats1.rep2.text = "Oui";
-            combats1.rep3.text = "Ah";
-            combats1.rep4.text = "Ok";
-        }
-        
+        x = Random.Range(0, 5);
+        Combat combats1 = combats[x];
+        Debug.Log(x);
+
+        combats1.stePrint.text = combats1.stereotype;
 
         
         
@@ -44,6 +33,7 @@ public class Combat
 {
     public string name;
     public string stereotype;
+    public Text stePrint;
     public Text rep1, rep2, rep3, rep4;
     public string answer;
 }
