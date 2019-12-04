@@ -4,26 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/MainScene.unity
-    guid: cde1da70a446c8a47805df2eeab46796
-  - enabled: 1
-    path: Assets/Scenes/menu_start.unity
-    guid: 3e7e5bdb72d80534ab8b0fc45c0dc410
-<<<<<<< Updated upstream
-  - enabled: 0
-    path: Assets/Scenes/Hp + GAMEOVER.unity
-    guid: 3d184965481888a47b3ed8217bad134b
-=======
->>>>>>> Stashed changes
-  - enabled: 1
-    path: Assets/Scenes/kilian.unity
-    guid: 3998641d867fdb54f9010f401a1158dc
-  - enabled: 1
-    path: Assets/Scenes/timotheMenuPause.unity
-    guid: 6ce7293de7924d342bb3b7bcaab91450
-  - enabled: 1
-    path: Assets/Scenes/HPGAMEOVER.unity
-    guid: 3d2774fbb420672468ac460eef488d74
+  m_Scenes: []
   m_configObjects: {}
