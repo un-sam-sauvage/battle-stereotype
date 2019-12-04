@@ -8,6 +8,7 @@ public class Battle : MonoBehaviour
     public Combat[] combats;
     Combat combats1;
     int x;
+    public Text victoryText;
     
 
     public Button button1, button2, button3;
@@ -36,34 +37,24 @@ public class Battle : MonoBehaviour
         Button b2 = button2.GetComponent<Button>();
         Button b3 = button3.GetComponent<Button>();
 
-        b1.onClick.AddListener(PrintAnswer1);
-        b2.onClick.AddListener(PrintAnswer2);
-        b3.onClick.AddListener(PrintAnswer3);
+        b1.onClick.AddListener(() => PrintAnswer(combats1.rep1));
+        b2.onClick.AddListener(() => PrintAnswer(combats1.rep2));
+        b3.onClick.AddListener(() => PrintAnswer(combats1.rep3));
+        Debug.Log("Test");    
+    }
 
+    public void PrintAnswer(Text a)
+    {
+        combats1.answer.text = a.text;
 
-        if (combats1.answer.text == combats1.goodAnswer.text)
+        if (a.text == combats1.goodAnswer.text)
         {
-            Debug.Log("You win !");
+            victoryText.text = "You win !";
         }
         else
         {
-            Debug.Log("You loose...");
+            victoryText.text = "You loose...";
         }
-    }
-
-    public void PrintAnswer1()
-    {
-        combats1.answer.text = combats1.rep1.text;
-    }
-
-    public void PrintAnswer2()
-    {
-        combats1.answer.text = combats1.rep2.text;
-    }
-
-    public void PrintAnswer3()
-    {
-        combats1.answer.text = combats1.rep3.text;
     }
 }
 
