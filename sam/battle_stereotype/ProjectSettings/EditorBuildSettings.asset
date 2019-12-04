@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HPGAMEOVER.unity
     guid: 3d2774fbb420672468ac460eef488d74
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: cde1da70a446c8a47805df2eeab46796
   m_configObjects: {}
