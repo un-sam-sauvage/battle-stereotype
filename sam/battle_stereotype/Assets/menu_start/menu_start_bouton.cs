@@ -10,6 +10,10 @@ public class menu_start_bouton : MonoBehaviour
     bool startCountdonwn=false;
     public string sceneNameToLoad;
 
+    private void Start()
+    {
+        Time.timeScale = 1f;
+    }
     public void ChangeScene()
     {
         //active l'image ce qui déclenche l'animation et le compte à rebours.
