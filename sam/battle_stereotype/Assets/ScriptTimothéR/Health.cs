@@ -11,7 +11,7 @@ public class Health : MonoBehaviour
     public Image[] hearts;
     public Sprite fullheart;
     public Sprite emptyHeart;
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -49,5 +49,13 @@ public class Health : MonoBehaviour
             }
 
         }
+        if (health <= 0)
+        {
+            GameOver gameOver = FindObjectOfType<GameOver>();
+            gameOver.GameOverOn();
+            
+
+        }
+
     }
 }

@@ -375,6 +375,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scenetoload: HPGAMEOVER
+  GameOverPanel: {fileID: 5217770631449693916}
 --- !u!1 &5217770632765014637
 GameObject:
   m_ObjectHideFlags: 0
