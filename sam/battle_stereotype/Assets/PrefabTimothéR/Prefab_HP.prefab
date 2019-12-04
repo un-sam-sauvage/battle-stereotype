@@ -63,7 +63,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 37d8437a9dfeafc489573bfb119663c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 47e7ba959d7fe854487a26ef1bc08221, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -136,7 +136,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 37d8437a9dfeafc489573bfb119663c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 47e7ba959d7fe854487a26ef1bc08221, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -378,7 +378,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 37d8437a9dfeafc489573bfb119663c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 47e7ba959d7fe854487a26ef1bc08221, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -451,7 +451,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 37d8437a9dfeafc489573bfb119663c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 47e7ba959d7fe854487a26ef1bc08221, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -524,7 +524,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 37d8437a9dfeafc489573bfb119663c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 47e7ba959d7fe854487a26ef1bc08221, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -585,8 +585,8 @@ MonoBehaviour:
   - {fileID: 2279577783627735152}
   - {fileID: 2279577784766805227}
   - {fileID: 2279577784238260543}
-  fullheart: {fileID: 21300000, guid: 37d8437a9dfeafc489573bfb119663c5, type: 3}
-  emptyHeart: {fileID: 21300000, guid: 12d8bf2afc40d5940af6f35bc4db0ad9, type: 3}
+  fullheart: {fileID: 21300000, guid: 47e7ba959d7fe854487a26ef1bc08221, type: 3}
+  emptyHeart: {fileID: 21300000, guid: 2728920e61ac6bb46a9d7a4a4f63b466, type: 3}
 --- !u!1 &5306405804298545689
 GameObject:
   m_ObjectHideFlags: 0
