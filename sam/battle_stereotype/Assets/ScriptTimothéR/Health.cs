@@ -11,7 +11,7 @@ public class Health : MonoBehaviour
     public Image[] hearts;
     public Sprite fullheart;
     public Sprite emptyHeart;
-    
+    public Animator animationHp1;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,11 +21,12 @@ public class Health : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.touchCount > 0)
+        
+
+         if (Input.GetKeyDown(KeyCode.A))
         {
-
             health--;
-
+            animationHp1.SetBool("Coeur4", true);
         }
 
             if (health > numOfHearts)
@@ -41,7 +42,7 @@ public class Health : MonoBehaviour
             {
                 hearts[i].sprite = fullheart;
             }
-            else
+           else
             {
                 hearts[i].sprite = emptyHeart; // Fait apparaitre le Sprite "Emptyheart" à la place de "fullheart"
             }
