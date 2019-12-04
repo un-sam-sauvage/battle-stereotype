@@ -45,6 +45,5 @@ public class Combat
     public string name;
     public string stereotype;
     public Text rep1, rep2, rep3, rep4;
-    public Sprite monsterSprite;
     public string answer;
 }
