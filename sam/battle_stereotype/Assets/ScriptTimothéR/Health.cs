@@ -12,6 +12,7 @@ public class Health : MonoBehaviour
     public Sprite fullheart;
     public Sprite emptyHeart;
     public Animator animationHp1;
+    public Animator animationHp2;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,14 +23,27 @@ public class Health : MonoBehaviour
     void Update()
     {
         
-
-         if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.A))
         {
             health--;
+        }
+         if (Input.GetKeyDown(KeyCode.B) && health == 5)
+        {
+           
             animationHp1.SetBool("Coeur4", true);
+
+        }
+        if (Input.GetKeyDown(KeyCode.B) && health == 4)
+        {
+            
+            animationHp2.SetBool("Coeur3", true);
+
         }
 
-            if (health > numOfHearts)
+
+
+
+        if (health > numOfHearts)
         {
             health = numOfHearts;
         }
