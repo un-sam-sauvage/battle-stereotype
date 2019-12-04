@@ -285,7 +285,6 @@ GameObject:
   - component: {fileID: 844384729}
   - component: {fileID: 844384731}
   - component: {fileID: 844384730}
-  - component: {fileID: 844384732}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -348,59 +347,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 844384728}
   m_CullTransparentMesh: 0
---- !u!114 &844384732
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 844384728}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86820e035a8c8cc4192215a7ce672d82, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  combats:
-  - name: M0
-    stereotype: 
-    rep1: {fileID: 105496512}
-    rep2: {fileID: 1431583198}
-    rep3: {fileID: 199086500}
-    rep4: {fileID: 1683059686}
-    monsterSprite: {fileID: 0}
-    answer: 
-  - name: M1
-    stereotype: 
-    rep1: {fileID: 105496512}
-    rep2: {fileID: 1431583198}
-    rep3: {fileID: 199086500}
-    rep4: {fileID: 1683059686}
-    monsterSprite: {fileID: 0}
-    answer: 
-  - name: M2
-    stereotype: 
-    rep1: {fileID: 0}
-    rep2: {fileID: 0}
-    rep3: {fileID: 0}
-    rep4: {fileID: 0}
-    monsterSprite: {fileID: 0}
-    answer: 
-  - name: 
-    stereotype: 
-    rep1: {fileID: 0}
-    rep2: {fileID: 0}
-    rep3: {fileID: 0}
-    rep4: {fileID: 0}
-    monsterSprite: {fileID: 0}
-    answer: 
-  - name: M3
-    stereotype: 
-    rep1: {fileID: 0}
-    rep2: {fileID: 0}
-    rep3: {fileID: 0}
-    rep4: {fileID: 0}
-    monsterSprite: {fileID: 0}
-    answer: 
 --- !u!1 &908021866
 GameObject:
   m_ObjectHideFlags: 0
@@ -1070,6 +1016,7 @@ GameObject:
   - component: {fileID: 2031367181}
   - component: {fileID: 2031367180}
   - component: {fileID: 2031367179}
+  - component: {fileID: 2031367183}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1161,6 +1108,59 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &2031367183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031367178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86820e035a8c8cc4192215a7ce672d82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  combats:
+  - name: 
+    stereotype: 
+    rep1: {fileID: 0}
+    rep2: {fileID: 0}
+    rep3: {fileID: 0}
+    rep4: {fileID: 0}
+    monsterSprite: {fileID: 0}
+    answer: 
+  - name: 
+    stereotype: 
+    rep1: {fileID: 0}
+    rep2: {fileID: 0}
+    rep3: {fileID: 0}
+    rep4: {fileID: 0}
+    monsterSprite: {fileID: 0}
+    answer: 
+  - name: 
+    stereotype: 
+    rep1: {fileID: 0}
+    rep2: {fileID: 0}
+    rep3: {fileID: 0}
+    rep4: {fileID: 0}
+    monsterSprite: {fileID: 0}
+    answer: 
+  - name: 
+    stereotype: 
+    rep1: {fileID: 0}
+    rep2: {fileID: 0}
+    rep3: {fileID: 0}
+    rep4: {fileID: 0}
+    monsterSprite: {fileID: 0}
+    answer: 
+  - name: 
+    stereotype: 
+    rep1: {fileID: 0}
+    rep2: {fileID: 0}
+    rep3: {fileID: 0}
+    rep4: {fileID: 0}
+    monsterSprite: {fileID: 0}
+    answer: 
 --- !u!1 &2069462930
 GameObject:
   m_ObjectHideFlags: 0
