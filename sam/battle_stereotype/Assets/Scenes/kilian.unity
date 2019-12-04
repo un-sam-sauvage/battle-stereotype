@@ -1244,6 +1244,17 @@ MonoBehaviour:
     rep3: {fileID: 199086500}
     answer: {fileID: 716045364}
     goodAnswer: {fileID: 1431583198}
+  - name: 2
+    stereotype: "Les filles doivent renoncer \xE0 certaines tenues vestimentaires."
+    stePrint: {fileID: 930032293}
+    reponse1: "Mais non, ce n\u2019est pas vrai."
+    reponse2: "Les gar\xE7ons aussi n\u2019ont pas le droit de venir d\xE9guis\xE9s..."
+    reponse3: "\xE7a ne devrait pas \xEAtre le cas !"
+    rep1: {fileID: 105496512}
+    rep2: {fileID: 1431583198}
+    rep3: {fileID: 199086500}
+    answer: {fileID: 716045364}
+    goodAnswer: {fileID: 199086500}
   button1: {fileID: 1311835533}
   button2: {fileID: 1326373149}
   button3: {fileID: 908021868}

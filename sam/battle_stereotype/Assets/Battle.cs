@@ -15,7 +15,7 @@ public class Battle : MonoBehaviour
     void Start()
     {
         x = Random.Range(0, combats.Length);
-        combats1 = combats[0];
+        combats1 = combats[x];
 
         
         
@@ -64,12 +64,6 @@ public class Battle : MonoBehaviour
     public void PrintAnswer3()
     {
         combats1.answer.text = combats1.rep3.text;
-    }
-
-
-    void Update()
-    {
-        
     }
 }
 
