@@ -5,18 +5,19 @@ using UnityEngine.UI;
 
 public class Battle : MonoBehaviour
 {
-    public Combat[] combats;
+    public int[] combatSize;
+    public List<Combat> combats = new List<Combat>();
     Combat combats1;
     int x;
+    int randomQuestion;
     public Text victoryText;
     
-
-    //public Button button1, button2, button3;
     // Start is called before the first frame update
     void Start()
     {
-        x = Random.Range(0, combats.Length);
-        combats1 = combats[x];
+        x = combatSize.Length;
+        randomQuestion = Random.Range(0, x);
+        combats1 = combats[randomQuestion];
 
         
         
@@ -28,6 +29,10 @@ public class Battle : MonoBehaviour
         combats1.rep2.text = combats1.reponse2;
         combats1.rep3.text = combats1.reponse3;
 
+        for(int i = 0; i < combatSize.Length; i++)
+        {
+
+        }
 
     }
 
@@ -50,6 +55,17 @@ public class Battle : MonoBehaviour
         if (a.text == combats1.goodAnswer.text)
         {
             victoryText.text = "You win !";
+            combats.RemoveAt(randomQuestion);
+            x--;
+            randomQuestion = Random.Range(0, x);
+
+            combats1 = combats[randomQuestion];
+
+            combats1.stePrint.text = combats1.stereotype;
+
+            combats1.rep1.text = combats1.reponse1;
+            combats1.rep2.text = combats1.reponse2;
+            combats1.rep3.text = combats1.reponse3;
         }
         else
         {

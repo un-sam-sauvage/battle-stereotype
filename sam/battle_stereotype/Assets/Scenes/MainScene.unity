@@ -378,6 +378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86820e035a8c8cc4192215a7ce672d82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  combatSize: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   combats:
   - stereotype: "Les filles sont plus susceptibles d'\xEAtre discrimin\xE9 dans le
       milieu scolaire que les gar\xE7ons."
