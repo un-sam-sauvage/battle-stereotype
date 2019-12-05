@@ -15,42 +15,22 @@ public class Battle : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        x = combatSize.Length;
-        randomQuestion = Random.Range(0, x);
-        combats1 = combats[randomQuestion];
-
-        
+        x = combatSize.Length;  //x prend la taille du tableau, donc le nombre total de stéréotypes
+        randomQuestion = Random.Range(0, x);    //randomQuestion prend une valeur aléatoire entre 0 et x
+        combats1 = combats[randomQuestion]; //combats1 prend tous les éléments de la classe combat, à un rang de la liste aléatoire (la liste combats)
         
         Debug.Log(x);
-
-        combats1.stePrint.text = combats1.stereotype;
+        //on affiche le stéréotype aléatoire dans la bulle de texte du monstre, et les réponses à ce stéréotypes dans les images contenant les réponses
+        combats1.stePrint.text = combats1.stereotype;   
 
         combats1.rep1.text = combats1.reponse1;
         combats1.rep2.text = combats1.reponse2;
         combats1.rep3.text = combats1.reponse3;
-
-        for(int i = 0; i < combatSize.Length; i++)
-        {
-
-        }
-
     }
-
-    /*public void PlayerTurn()
-    {
-        Button b1 = button1.GetComponent<Button>();
-        Button b2 = button2.GetComponent<Button>();
-        Button b3 = button3.GetComponent<Button>();
-
-        b1.onClick.AddListener(() => PrintAnswer(combats1.rep1));
-        b2.onClick.AddListener(() => PrintAnswer(combats1.rep2));
-        b3.onClick.AddListener(() => PrintAnswer(combats1.rep3));
-        Debug.Log("Test");    
-    }*/
 
     public void PrintAnswer(Text a)
     {
-        combats1.answer.text = a.text;
+        combats1.answer.text = a.text;  //on affiche la réponse sélectionné dans notre bulle de texte
 
         if (a.text == combats1.goodAnswer.text)
         {
