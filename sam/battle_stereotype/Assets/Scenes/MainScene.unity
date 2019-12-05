@@ -379,8 +379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   combats:
-  - monsterName: 
-    stereotype: "Les filles sont plus susceptibles d'\xEAtre discrimin\xE9 dans le
+  - stereotype: "Les filles sont plus susceptibles d'\xEAtre discrimin\xE9 dans le
       milieu scolaire que les gar\xE7ons."
     stePrint: {fileID: 714769858}
     reponse1: "C\u2019est faux !"
@@ -391,6 +390,128 @@ MonoBehaviour:
     rep3: {fileID: 1582189954}
     answer: {fileID: 1423513080}
     goodAnswer: {fileID: 1586984377}
+  - stereotype: "Les femmes dans les manuels scolaires sont repr\xE9sent\xE9es de
+      fa\xE7on tr\xE8s sexu\xE9e, pr\xE9sentes dans l\u2019univers domestique mais
+      absentes dans le domaine de la politique et intellectuel.\_"
+    stePrint: {fileID: 714769858}
+    reponse1: "Normal c\u2019est leur place"
+    reponse2: "Il ne devrait y avoir que des hommes pour casser les st\xE9r\xE9otype"
+    reponse3: "Il devrait y avoir les deux genres repr\xE9sent\xE9s de mani\xE8re
+      \xE9quitable.  "
+    rep1: {fileID: 1529821420}
+    rep2: {fileID: 1586984377}
+    rep3: {fileID: 1582189954}
+    answer: {fileID: 1423513080}
+    goodAnswer: {fileID: 1582189954}
+  - stereotype: "Les filles doivent renoncer \xE0 certaines tenues vestimentaires."
+    stePrint: {fileID: 714769858}
+    reponse1: "\xC7a ne devrait pas \xEAtre le cas ! "
+    reponse2: "Mais non, ce n\u2019est pas vrai. "
+    reponse3: "Les gar\xE7ons aussi n\u2019ont pas le droit de venir d\xE9guis\xE9s... "
+    rep1: {fileID: 1529821420}
+    rep2: {fileID: 1586984377}
+    rep3: {fileID: 1582189954}
+    answer: {fileID: 1423513080}
+    goodAnswer: {fileID: 1529821420}
+  - stereotype: "Les gar\xE7ons ont plus de facilit\xE9 dans le sport \xE0 l\u2019\xE9cole
+      que les filles. "
+    stePrint: {fileID: 714769858}
+    reponse1: "Oui, car Les filles ont un bar\xE8me moins \xE9lev\xE9 que les gar\xE7ons"
+    reponse2: "Oui, car les gar\xE7ons sont g\xE9n\xE9tiquement plus fort physiquement
+      que les filles"
+    reponse3: "Non, ils ont autant de difficult\xE9s / facilit\xE9s."
+    rep1: {fileID: 1529821420}
+    rep2: {fileID: 1586984377}
+    rep3: {fileID: 1582189954}
+    answer: {fileID: 1423513080}
+    goodAnswer: {fileID: 1582189954}
+  - stereotype: "Les filles et les gar\xE7ons jouent chacun dans leurs coins, la mixit\xE9
+      est mal vue"
+    stePrint: {fileID: 714769858}
+    reponse1: "C'est parce que les gar\xE7ons sont mauvais dans les jeux de filles
+      et inversement"
+    reponse2: "Chacun devrait jouer \xE0 ce qu\u2019il veut avec qui il veut"
+    reponse3: "De toute fa\xE7on, je n\u2019aime pas jouer avec les gens. "
+    rep1: {fileID: 1529821420}
+    rep2: {fileID: 1586984377}
+    rep3: {fileID: 1582189954}
+    answer: {fileID: 1423513080}
+    goodAnswer: {fileID: 1586984377}
+  - stereotype: "Les filles qui ont beaucoup de relations amoureuses seront moins
+      bien vu qu\u2019un gar\xE7on m\xEAme s'ils en ont autant. "
+    stePrint: {fileID: 714769858}
+    reponse1: "Les filles aiment plus se sentir aimer que les gar\xE7ons"
+    reponse2: "Les gar\xE7ons sont plus timides que les filles"
+    reponse3: 'On ne juge pas sur le nombre de relations amoureuses. '
+    rep1: {fileID: 1529821420}
+    rep2: {fileID: 1586984377}
+    rep3: {fileID: 1582189954}
+    answer: {fileID: 1423513080}
+    goodAnswer: {fileID: 1582189954}
+  - stereotype: "Les gar\xE7ons sont moins matures que les filles "
+    stePrint: {fileID: 714769858}
+    reponse1: "C'est parce qu\u2019ils sont moins intelligents"
+    reponse2: "Le genre n\u2019a pas d\u2019influence sur la maturit\xE9"
+    reponse3: "Oui mais les gar\xE7ons sont plus forts physiquement. "
+    rep1: {fileID: 1529821420}
+    rep2: {fileID: 1586984377}
+    rep3: {fileID: 1582189954}
+    answer: {fileID: 1423513080}
+    goodAnswer: {fileID: 1586984377}
+  - stereotype: "Les filles sont plus bavardes que les gar\xE7ons. "
+    stePrint: {fileID: 714769858}
+    reponse1: "Oui, car les filles apprennent le langage plus rapidement que les gar\xE7ons"
+    reponse2: "Non, car les gar\xE7ons sont plus \xE0 l\u2019aise \xE0 l\u2019oral"
+    reponse3: "On n'est pas bavarde, on a juste beaucoup d echoses \xE0 raconter.
+      Hier par exemple, je me baladais tranquillement jusqu'\xE0 e quej e croise Marie,
+      mon amie d'enfance ! On est all\xE9 dans un caf\xE9 et on a parl\xE9 pendant
+      des heures. Ca m'a rappel\xE9 le bon vieux temps quand, au coll\xE8ge..."
+    rep1: {fileID: 1529821420}
+    rep2: {fileID: 1586984377}
+    rep3: {fileID: 1582189954}
+    answer: {fileID: 1423513080}
+    goodAnswer: {fileID: 1529821420}
+  - stereotype: "Les filles jouent \xE0 la dinette ou \xE0 la poup\xE9e, les gar\xE7ons
+      au pompier ou font du sport. "
+    stePrint: {fileID: 714769858}
+    reponse1: "Il n\u2019y a pas de pompiers filles"
+    reponse2: "Les gar\xE7ons ne savent pas faire \xE0 manger"
+    reponse3: "Chacun peut jouer \xE0 ce qu\u2019il veut. "
+    rep1: {fileID: 1529821420}
+    rep2: {fileID: 1586984377}
+    rep3: {fileID: 1582189954}
+    answer: {fileID: 1423513080}
+    goodAnswer: {fileID: 1582189954}
+  - stereotype: 'Les filles ont de meilleures notes. '
+    stePrint: {fileID: 714769858}
+    reponse1: Vrai, elles sont plus intelligentes
+    reponse2: "Faux, les gar\xE7ons sont plus intelligents"
+    reponse3: "Vrai, les filles ont de meilleures notes que les gar\xE7ons en moyenne."
+    rep1: {fileID: 1529821420}
+    rep2: {fileID: 1586984377}
+    rep3: {fileID: 1582189954}
+    answer: {fileID: 1423513080}
+    goodAnswer: {fileID: 1582189954}
+  - stereotype: "Les gar\xE7ons sont forts en Math\xE9matique et les sciences. "
+    stePrint: {fileID: 714769858}
+    reponse1: Oui, on est les meilleurs !
+    reponse2: "Non, les maths et les sciences c\u2019est trop dur."
+    reponse3: "Les gar\xE7ons comme les filles peuvent \xEAtre fort en math."
+    rep1: {fileID: 1529821420}
+    rep2: {fileID: 1586984377}
+    rep3: {fileID: 1582189954}
+    answer: {fileID: 1423513080}
+    goodAnswer: {fileID: 1582189954}
+  - stereotype: "Les gar\xE7ons font plus de b\xEAtises et sont plus insolents.  "
+    stePrint: {fileID: 714769858}
+    reponse1: "Tous les gar\xE7ons ne sont pas comme \xE7a."
+    reponse2: "Vrai, les sportifs n\u2019ont pas de cerveau !"
+    reponse3: "On n'est pas insolents on est honn\xEAtes "
+    rep1: {fileID: 1529821420}
+    rep2: {fileID: 1586984377}
+    rep3: {fileID: 1582189954}
+    answer: {fileID: 1423513080}
+    goodAnswer: {fileID: 1529821420}
   victoryText: {fileID: 695259421}
 --- !u!1 &235288017
 GameObject:
@@ -724,7 +845,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.087000005}
   m_AnchorMax: {x: 1, y: 0.74867934}
-  m_AnchoredPosition: {x: -6.300003, y: -1.3899994}
+  m_AnchoredPosition: {x: -6.3000183, y: -1.3899994}
   m_SizeDelta: {x: 0, y: 27.28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!50 &676609459
@@ -944,10 +1065,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 12
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -980,7 +1101,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.07012521, y: 0.06351952}
   m_AnchorMax: {x: 0.6851471, y: 0.9483817}
-  m_AnchoredPosition: {x: 0.5999985, y: -24.200005}
+  m_AnchoredPosition: {x: 0.59999084, y: -24.200003}
   m_SizeDelta: {x: 59.1, y: 46.739998}
   m_Pivot: {x: 1, y: 1}
 --- !u!1 &907761827
@@ -1201,10 +1322,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 12
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1237,7 +1358,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.109000005, y: 0.25800002}
   m_AnchorMax: {x: 0.93630284, y: 0.9003967}
-  m_AnchoredPosition: {x: -0.0000076293945, y: -0.000015258789}
+  m_AnchoredPosition: {x: 0, y: -0.000015258789}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!1001 &1529821418
@@ -1378,6 +1499,16 @@ PrefabInstance:
       propertyPath: m_FontData.m_Alignment
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 72530290545469297, guid: 7d971cf40f8c82a42b0e8aedb5d42538,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 72530290545469297, guid: 7d971cf40f8c82a42b0e8aedb5d42538,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 72530290545469302, guid: 7d971cf40f8c82a42b0e8aedb5d42538,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1460,6 +1591,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_Alignment
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2540530838015153170, guid: 9a9489e56dd1efd409880b99eb972f0a,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2540530838015153170, guid: 9a9489e56dd1efd409880b99eb972f0a,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3040827014693859843, guid: 9a9489e56dd1efd409880b99eb972f0a,
         type: 3}
@@ -1762,6 +1903,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_Alignment
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7940766210111227180, guid: bc5d1e6f628041746bf5a47cce0c2339,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7940766210111227180, guid: bc5d1e6f628041746bf5a47cce0c2339,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8722786613967868795, guid: bc5d1e6f628041746bf5a47cce0c2339,
         type: 3}
