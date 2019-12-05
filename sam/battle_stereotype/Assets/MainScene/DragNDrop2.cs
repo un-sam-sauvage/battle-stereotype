@@ -10,17 +10,14 @@ public class DragNDrop2 : MonoBehaviour , IDragHandler, IEndDragHandler , IBegin
     Vector2 startPosition;
     public static GameObject objectBeingDrag;
     public GameObject panel;
-
+    public GameObject text;
     public Text answerDragged;
 
-    void Start()
-    {
-        
-    }
     public void OnBeginDrag(PointerEventData eventData)
     {
         startPosition = transform.position;
         objectBeingDrag = gameObject;
+        text.SetActive(false);
     }
 
     // lorsque le joueur drag un objet, l'objet prend les coordonnées de l'endroit où le joueur touche l'écran et l'objet prend ces coordonnées.
@@ -36,7 +33,6 @@ public class DragNDrop2 : MonoBehaviour , IDragHandler, IEndDragHandler , IBegin
     {
         objectBeingDrag = null;
         transform.position = startPosition;
-
         Battle battle = FindObjectOfType<Battle>();
         battle.PrintAnswer(answerDragged);
     }

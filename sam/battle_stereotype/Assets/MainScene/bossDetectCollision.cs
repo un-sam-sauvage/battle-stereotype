@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 
 public class bossDetectCollision : MonoBehaviour, IDropHandler
 {
+    public GameObject text;
     public GameObject item
     {
         get
@@ -12,8 +13,8 @@ public class bossDetectCollision : MonoBehaviour, IDropHandler
             // le panel boss accepte d'avoir 4 enfants.
             if (transform.childCount > 0)
             {
+                text.SetActive(true);
                 //DragNDrop2.objectBeingDrag.SetActive(false);
-                
                 return transform.GetChild(0).gameObject;
             }
             return null;
@@ -25,7 +26,7 @@ public class bossDetectCollision : MonoBehaviour, IDropHandler
         if (!item)
         {
             DragNDrop2.objectBeingDrag.transform.SetParent(transform);
-
+            
         }
     }
 }
