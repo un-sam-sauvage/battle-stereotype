@@ -16,6 +16,7 @@ public class Health : MonoBehaviour
     public Animator animationHp3;
     public Animator animationHp4;
     public Animator animationHp5;
+    public float CountDown = 2f;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,36 +31,42 @@ public class Health : MonoBehaviour
         {
             health--;
         }
-         if (Input.GetKeyDown(KeyCode.B) && health == 5)
+         if (Input.GetKeyDown(KeyCode.B) && health == 4)
         {
            
             animationHp1.SetBool("Coeur4", true);
            
         }
-        if (Input.GetKeyDown(KeyCode.B) && health == 4)
+        if (Input.GetKeyDown(KeyCode.B) && health == 3)
         {
             
             animationHp2.SetBool("Coeur3", true);
 
         }
-        if (Input.GetKeyDown(KeyCode.B) && health == 3)
+        if (Input.GetKeyDown(KeyCode.B) && health == 2)
         {
             animationHp3.SetBool("Coeur2", true);
 
         }
-        if (Input.GetKeyDown(KeyCode.B) && health == 2)
+        if (Input.GetKeyDown(KeyCode.B) && health == 1)
         {
             animationHp4.SetBool("Coeur1", true);
         }
-        if (Input.GetKeyDown(KeyCode.B) && health == 1)
+        if (Input.GetKeyDown(KeyCode.B) && health == 0)
         {
             animationHp5.SetBool("Coeur", true);
            
         }
         if (health <= 0)// Fait apparaitre le panel GameOver
         {
-            GameOver gameOver = FindObjectOfType<GameOver>();
-            gameOver.GameOverOn();
+            CountDown -= Time.deltaTime;
+            if (CountDown <= 0)
+            {
+                GameOver gameOver = FindObjectOfType<GameOver>();
+                gameOver.GameOverOn();
+
+            }
+           
 
 
         }

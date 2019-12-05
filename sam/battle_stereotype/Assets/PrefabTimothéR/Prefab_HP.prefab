@@ -692,6 +692,7 @@ MonoBehaviour:
   animationHp3: {fileID: 5927793284888613017}
   animationHp4: {fileID: 9092523609288818661}
   animationHp5: {fileID: 782156715596439139}
+  CountDown: 2
 --- !u!1 &5306405804298545689
 GameObject:
   m_ObjectHideFlags: 0
