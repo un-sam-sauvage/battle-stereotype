@@ -15,6 +15,7 @@ public class Battle : MonoBehaviour
 
     public GameObject monstre1, monstre2, monstre3, boss;
     bool isWinning = false;
+    int countingAnswer = 0;
     
     // Start is called before the first frame update
     void Start()
@@ -60,6 +61,15 @@ public class Battle : MonoBehaviour
                 monstre3.SetActive(false);
                 boss.SetActive(true);
                 isWinning = false;
+            }
+
+            if(boss.activeInHierarchy)
+            {
+                countingAnswer++;
+                if(countingAnswer == 4)
+                {
+                    boss.SetActive(false);
+                }
             }
             
             combats.RemoveAt(randomQuestion);
