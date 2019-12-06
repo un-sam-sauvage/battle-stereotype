@@ -20,12 +20,14 @@ public class changement_scene_menu_start : MonoBehaviour
     {
         if (startCountdown == true)
         {
+            
             countdown -= Time.deltaTime;
             Debug.Log(countdown);
         }
         //une fois que le compte à rebours est fini, change de scène.
         if (countdown <= 0)
         {
+            FindObjectOfType<AudioManager>().Stop("MenuMusic");
             SceneManager.LoadScene(sceneNameToLoad);
         }
 

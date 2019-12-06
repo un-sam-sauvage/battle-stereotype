@@ -6,10 +6,11 @@ public class ChargeFirstScene : MonoBehaviour
 {
     public string levelToload;
     public float timer = 26f;
+    AudioManager audioManager;
     // Start is called before the first frame update
     void Start()
     {
-        
+        FindObjectOfType<AudioManager>().Play("IntroMusic");
     }
 
     // Update is called once per frame
@@ -20,6 +21,7 @@ public class ChargeFirstScene : MonoBehaviour
         if ( timer <= 0)
         {
             SceneManager.LoadScene(levelToload);
+            FindObjectOfType<AudioManager>().Stop("IntroMusic");
 
 
         }

@@ -252,4 +252,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelToload: MainScene
-  timer: 26
+  timer: 27
