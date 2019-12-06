@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class CréditsLoad : MonoBehaviour
+
+public class SkipIntro : MonoBehaviour
 {
+    public string sceneToLoad;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,10 +17,12 @@ public class CréditsLoad : MonoBehaviour
     {
         
     }
-    public void LoadCrédits()
-    {// Charge la scene crédits et stop la music du menu
-        SceneManager.LoadScene("Crédits");
-        FindObjectOfType<AudioManager>().Stop("MenuMusic");
+    public void SkipCutscene ()
+    {
+        SceneManager.LoadScene(sceneToLoad);
+
+
     }
+
 
 }
