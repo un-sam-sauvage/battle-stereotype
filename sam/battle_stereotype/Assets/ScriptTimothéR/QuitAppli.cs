@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class CréditLoadToMenu : MonoBehaviour
+public class QuitAppli : MonoBehaviour
 {
-    public float tiimer = 10f;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,15 +12,13 @@ public class CréditLoadToMenu : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {// Lance le timer avant de load le menu
-        tiimer -= Time.deltaTime;
-        if (tiimer <= 0)
-        {
-            SceneManager.LoadScene("menu_start");
+    {
+        
+    }
+    public void QuitGame()
+    {//Quit l'appli
 
+        Application.Quit();
 
-        }
-
-            
     }
 }

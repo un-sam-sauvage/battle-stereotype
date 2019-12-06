@@ -39,7 +39,7 @@ public class GameOver : MonoBehaviour
 
     }
     public void GameOverOn()
-    {
+    {// Rend visible le GameOver
 
         GameOverPanel.SetActive(true);
         Time.timeScale = 0f;

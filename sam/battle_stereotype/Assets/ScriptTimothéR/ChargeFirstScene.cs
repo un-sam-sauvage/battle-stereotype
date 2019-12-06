@@ -15,7 +15,7 @@ public class ChargeFirstScene : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {// Décompte timer avant de load une scene
         timer -= Time.deltaTime;
 
         if ( timer <= 0)
