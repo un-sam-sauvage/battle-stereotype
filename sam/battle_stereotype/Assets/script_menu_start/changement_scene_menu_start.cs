@@ -12,6 +12,7 @@ public class changement_scene_menu_start : MonoBehaviour
 
     public void ChangementScene()
     {
+        FindObjectOfType<AudioManager>().Play("TapSound");
         // quand on clique sur le bouton, lance l'animation et le compte à rebours
         imageFade.SetActive(true);
         startCountdown = true;          
