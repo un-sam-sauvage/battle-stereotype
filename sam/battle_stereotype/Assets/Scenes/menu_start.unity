@@ -175,6 +175,21 @@ MonoBehaviour:
     volume: 1
     loop: 1
     source: {fileID: 0}
+  - name: TapSound
+    clip: {fileID: 8300000, guid: 96a6b4a4c3e59c0449dfa146808ab60d, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ErrorSound
+    clip: {fileID: 8300000, guid: 67c689cf23e6f7c42b2042b7eb1f073d, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GoodSound
+    clip: {fileID: 8300000, guid: 6c3a95dd616e8b348a9536ff4434cafb, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
 --- !u!4 &513084364
 Transform:
   m_ObjectHideFlags: 0

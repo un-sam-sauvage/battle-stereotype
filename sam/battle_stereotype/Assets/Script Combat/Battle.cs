@@ -40,11 +40,13 @@ public class Battle : MonoBehaviour
         combats1.answer.text = a.text;  //on affiche la réponse sélectionné dans notre bulle de texte
         isWinning = true;
 
-        if (a.text == combats1.goodAnswer.text)
+        if (a.text == combats1.goodAnswer.text) //Si la réponse sélectionné est égale à la bonne réponse
         {
             victoryText.text = "You win !";
+            FindObjectOfType<AudioManager>().Play("GoodSound"); //On joue le son de victoire
 
-            if(monstre1.activeInHierarchy && isWinning == true)
+                //Les boucles if servent à changer de monstre à chaque fois
+            if (monstre1.activeInHierarchy && isWinning == true)
             {
                 monstre1.SetActive(false);
                 monstre2.SetActive(true);
@@ -63,14 +65,16 @@ public class Battle : MonoBehaviour
                 monstre3.SetActive(false);
                 boss.SetActive(true);
                 isWinning = false;
-                FindObjectOfType<AudioManager>().Stop("MobMusic");
+
+                //On arrête la musique des mobs et on joue la musique de boss
+                FindObjectOfType<AudioManager>().Stop("MobMusic");      
                 FindObjectOfType<AudioManager>().Play("BossMusic");
             }
 
-            if(boss.activeInHierarchy)
+            if(boss.activeInHierarchy)  //Si le boss est activé dans la hiérarchie
             {
-                countingAnswer++;
-                if(countingAnswer >= 4)
+                countingAnswer++;   //On ajoute 1 au compteur de bonnes réponses
+                if(countingAnswer >= 4) //Si le compteur atteint 4, le boss est vaincu, on va aux crédits
                 {
                     boss.SetActive(false);
                     FindObjectOfType<AudioManager>().Stop("BossMusic");
@@ -78,11 +82,11 @@ public class Battle : MonoBehaviour
                 }
             }
             
-            combats.RemoveAt(randomQuestion);
-            x--;
-            randomQuestion = Random.Range(0, x);
+            combats.RemoveAt(randomQuestion);   //On supprime la question à laquelle on vient de répondre
+            x--;    //On retire 1 à x
+            randomQuestion = Random.Range(0, x);    //On redéfinit randomQuestion avec une valeur maximum réduite précedemment
 
-            combats1 = combats[randomQuestion];
+            combats1 = combats[randomQuestion]; //combats1 prend un élément aléatoire de la liste combats et tous les élements de celui-ci
 
             combats1.stePrint.text = combats1.stereotype;
 
@@ -93,14 +97,15 @@ public class Battle : MonoBehaviour
         else
         {
             victoryText.text = "You loose...";
-            FindObjectOfType<Health>().LoseLife();
+            FindObjectOfType<Health>().LoseLife();  //on lance la fonction LoseLife du script Health
+            FindObjectOfType<AudioManager>().Play("ErrorSound");    //On joue le son de l'erreur
         }
     }
 }
 
 
 [System.Serializable]
-public class Combat
+public class Combat //on crée une classe combat avec plusieurs éléments
 {
     public string stereotype;
     public Text stePrint;

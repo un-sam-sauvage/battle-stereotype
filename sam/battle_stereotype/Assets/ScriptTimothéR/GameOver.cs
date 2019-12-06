@@ -27,6 +27,8 @@ public class GameOver : MonoBehaviour
     {//Sert à Load le MenuStart 
 
         Time.timeScale = 1f;
+        FindObjectOfType<AudioManager>().Stop("MobMusic");
+        FindObjectOfType<AudioManager>().Stop("BossMusic");
         SceneManager.LoadScene("menu_start");
         
     }
@@ -34,6 +36,8 @@ public class GameOver : MonoBehaviour
     {// Recharge le niv ou est "mort" le joueur
 
         Time.timeScale = 1f;
+        FindObjectOfType<AudioManager>().Stop("MobMusic");
+        FindObjectOfType<AudioManager>().Stop("BossMusic");
         SceneManager.LoadScene(scenetoload);
         
 

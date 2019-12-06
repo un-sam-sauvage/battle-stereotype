@@ -49,6 +49,8 @@ public class PauseMenu : MonoBehaviour
     {//Sert à Load le MenuStart et remet le temps de jeu à 1f
 
         Time.timeScale = 1f;
+        FindObjectOfType<AudioManager>().Stop("MobMusic");
+        FindObjectOfType<AudioManager>().Stop("BossMusic");
         SceneManager.LoadScene("menu_start");
 
     }
