@@ -17,8 +17,8 @@ public class Battle : MonoBehaviour
     public GameObject monstre1, monstre2, monstre3, boss;
     bool isWinning = false;
     int countingAnswer = 0;
-    float countdown = 1;
-    
+    public string sceneCredits;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -63,20 +63,18 @@ public class Battle : MonoBehaviour
                 monstre3.SetActive(false);
                 boss.SetActive(true);
                 isWinning = false;
+                FindObjectOfType<AudioManager>().Stop("MobMusic");
+                FindObjectOfType<AudioManager>().Play("BossMusic");
             }
 
             if(boss.activeInHierarchy)
             {
                 countingAnswer++;
-                if(countingAnswer == 4)
+                if(countingAnswer >= 4)
                 {
-                    countdown -= Time.deltaTime;
                     boss.SetActive(false);
-
-                    if(countdown <= 0)
-                    {
-                        SceneManager.LoadScene("Crédits");
-                    }
+                    FindObjectOfType<AudioManager>().Stop("BossMusic");
+                    SceneManager.LoadScene(sceneCredits);
                 }
             }
             

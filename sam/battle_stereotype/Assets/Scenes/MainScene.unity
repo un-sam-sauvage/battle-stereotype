@@ -434,6 +434,7 @@ GameObject:
   - component: {fileID: 114661606}
   - component: {fileID: 114661610}
   - component: {fileID: 114661611}
+  - component: {fileID: 114661612}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -690,6 +691,7 @@ MonoBehaviour:
   monstre2: {fileID: 1242458400}
   monstre3: {fileID: 503872856}
   boss: {fileID: 1897152171}
+  sceneCredits: "Cr\xE9dits"
 --- !u!114 &114661611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -703,6 +705,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 653418281}
+--- !u!114 &114661612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114661605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20eb082e585b7d8428d3460839011a9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &269585671
 GameObject:
   m_ObjectHideFlags: 0

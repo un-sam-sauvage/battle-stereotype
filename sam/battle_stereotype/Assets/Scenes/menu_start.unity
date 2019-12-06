@@ -165,6 +165,16 @@ MonoBehaviour:
     volume: 1
     loop: 0
     source: {fileID: 0}
+  - name: MobMusic
+    clip: {fileID: 8300000, guid: a7e5a155d81fc70468fda8518d49ff18, type: 3}
+    volume: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: BossMusic
+    clip: {fileID: 8300000, guid: 7ddfd1cf0b0933b4d8f376ea859ff4fc, type: 3}
+    volume: 1
+    loop: 1
+    source: {fileID: 0}
 --- !u!4 &513084364
 Transform:
   m_ObjectHideFlags: 0
