@@ -77,6 +77,7 @@ public class Battle : MonoBehaviour
         else
         {
             victoryText.text = "You loose...";
+            FindObjectOfType<Health>().LoseLife();
         }
     }
 }

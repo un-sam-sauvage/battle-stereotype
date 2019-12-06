@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4708966555076263630
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4708966555076263631}
+  - component: {fileID: 4708966555076263624}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4708966555076263631
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4708966555076263630}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4708966555076263624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4708966555076263630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b65317629b25074ebb993d62d10a6db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  numOfHearts: 5
+  hearts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  fullheart: {fileID: 21300000, guid: 47e7ba959d7fe854487a26ef1bc08221, type: 3}
+  emptyHeart: {fileID: 21300000, guid: 2728920e61ac6bb46a9d7a4a4f63b466, type: 3}
+  animationHp1: {fileID: 7547434544103324656, guid: 019ea0a72b3ee8b44bac0f2e7fb62d6d,
+    type: 3}
+  animationHp2: {fileID: 7685328990765410753, guid: 099c8a412f73e8b4cb7e82cd0a50a239,
+    type: 3}
+  animationHp3: {fileID: 1173601606809347312, guid: 7ae7b2701872a6540b302467b44094cc,
+    type: 3}
+  animationHp4: {fileID: 1450493501559680587, guid: f059f9b9f474f454a912092868f51392,
+    type: 3}
+  animationHp5: {fileID: 2613681222718117666, guid: d979140b3fbd197439a316abef170ae2,
+    type: 3}
+  CountDown: 2
