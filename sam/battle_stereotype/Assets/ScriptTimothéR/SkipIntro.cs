@@ -20,7 +20,7 @@ public class SkipIntro : MonoBehaviour
     public void SkipCutscene ()
     {
         SceneManager.LoadScene(sceneToLoad);
-
+        FindObjectOfType<AudioManager>().Stop("IntroMusic");
 
     }
 
