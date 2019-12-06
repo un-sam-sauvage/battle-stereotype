@@ -161,7 +161,7 @@ MonoBehaviour:
     loop: 0
     source: {fileID: 0}
   - name: EndMusic
-    clip: {fileID: 8300000, guid: 4051a7be0b83d5440a3fd3512564d408, type: 3}
+    clip: {fileID: 8300000, guid: d7179f6e329c1af418debf67052e5715, type: 3}
     volume: 1
     loop: 0
     source: {fileID: 0}

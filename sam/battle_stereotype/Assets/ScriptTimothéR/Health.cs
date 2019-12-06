@@ -11,11 +11,8 @@ public class Health : MonoBehaviour
     public Image[] hearts;
     public Sprite fullheart;
     public Sprite emptyHeart;
-    public Animator animationHp1;
-    public Animator animationHp2;
-    public Animator animationHp3;
-    public Animator animationHp4;
-    public Animator animationHp5;
+
+    public Animator[] animationHp;
     public float CountDown = 1f;
     
 
@@ -31,43 +28,38 @@ public class Health : MonoBehaviour
         if (health == 4)
         {
 
-            animationHp1.SetBool("Coeur4", true);
+            animationHp[0].SetBool("Coeur4", true);
 
         }
 
         if (health == 3)
         {
 
-            animationHp2.SetBool("Coeur3", true);
+            animationHp[1].SetBool("Coeur3", true);
 
         }
 
         if (health == 2)
         {
-            animationHp3.SetBool("Coeur2", true);
+            animationHp[2].SetBool("Coeur2", true);
 
         }
 
         if (health == 1)
         {
-            animationHp4.SetBool("Coeur1", true);
+            animationHp[3].SetBool("Coeur1", true);
         }
 
         if (health == 0)
         {
-            animationHp5.SetBool("Coeur", true);
+            animationHp[4].SetBool("Coeur", true);
 
         }
 
         if (health <= 0)// Fait apparaitre le panel GameOver
         {
-            CountDown -= Time.deltaTime;
-            if (CountDown <= 0)
-            {
-                GameOver gameOver = FindObjectOfType<GameOver>();
-                gameOver.GameOverOn();
-
-            }
+            GameOver gameOver = FindObjectOfType<GameOver>();
+            gameOver.GameOverOn();
         }
 
 
