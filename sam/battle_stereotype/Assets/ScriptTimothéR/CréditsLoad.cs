@@ -18,7 +18,7 @@ public class CréditsLoad : MonoBehaviour
     public void LoadCrédits()
     {
         SceneManager.LoadScene("Crédits");
-
+        FindObjectOfType<AudioManager>().Stop("MenuMusic");
     }
 
 }
