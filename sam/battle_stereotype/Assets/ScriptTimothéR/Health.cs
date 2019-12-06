@@ -16,7 +16,7 @@ public class Health : MonoBehaviour
     public Animator animationHp3;
     public Animator animationHp4;
     public Animator animationHp5;
-    public float CountDown = 2f;
+    public float CountDown = 1f;
     
 
     public void LoseLife()
