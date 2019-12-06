@@ -160,6 +160,11 @@ MonoBehaviour:
     volume: 1
     loop: 0
     source: {fileID: 0}
+  - name: EndMusic
+    clip: {fileID: 8300000, guid: 4051a7be0b83d5440a3fd3512564d408, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
 --- !u!4 &513084364
 Transform:
   m_ObjectHideFlags: 0

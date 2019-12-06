@@ -8,7 +8,7 @@ public class CréditLoadToMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        FindObjectOfType<AudioManager>().Play("EndMusic");
     }
 
     // Update is called once per frame
@@ -17,6 +17,7 @@ public class CréditLoadToMenu : MonoBehaviour
         tiimer -= Time.deltaTime;
         if (tiimer <= 0)
         {
+            FindObjectOfType<AudioManager>().Stop("EndMusic");
             SceneManager.LoadScene("menu_start");
 
 
