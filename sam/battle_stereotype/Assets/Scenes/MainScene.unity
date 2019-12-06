@@ -517,6 +517,10 @@ MonoBehaviour:
     answer: {fileID: 1423513080}
     goodAnswer: {fileID: 1529821420}
   victoryText: {fileID: 695259421}
+  monstre1: {fileID: 944756752}
+  monstre2: {fileID: 1242458400}
+  monstre3: {fileID: 503872856}
+  boss: {fileID: 1897152171}
 --- !u!1 &269585671
 GameObject:
   m_ObjectHideFlags: 0
@@ -738,6 +742,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 364567923}
   m_CullTransparentMesh: 0
+--- !u!1 &503872856 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6130266684416536297, guid: 152cddc5c4630244e99e312d8b51f5c6,
+    type: 3}
+  m_PrefabInstance: {fileID: 2081309453}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &676609457 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6130266683199555371, guid: 152cddc5c4630244e99e312d8b51f5c6,
@@ -1045,6 +1055,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 907761827}
   m_CullTransparentMesh: 0
+--- !u!1 &944756752 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6130266684416536297, guid: 152cddc5c4630244e99e312d8b51f5c6,
+    type: 3}
+  m_PrefabInstance: {fileID: 2093243437}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1242458400 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6130266684416536297, guid: 152cddc5c4630244e99e312d8b51f5c6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1800522080}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1373541492 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6130266684416536302, guid: 152cddc5c4630244e99e312d8b51f5c6,
@@ -2038,6 +2060,12 @@ PrefabInstance:
       objectReference: {fileID: 2114442038}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 152cddc5c4630244e99e312d8b51f5c6, type: 3}
+--- !u!1 &1897152171 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6130266684416536297, guid: 152cddc5c4630244e99e312d8b51f5c6,
+    type: 3}
+  m_PrefabInstance: {fileID: 6130266683607202458}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1998675420
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,6 +11,10 @@ public class Battle : MonoBehaviour
     int x;
     int randomQuestion;
     public Text victoryText;
+    int death;
+
+    public GameObject monstre1, monstre2, monstre3, boss;
+    bool isWinning = false;
     
     // Start is called before the first frame update
     void Start()
@@ -31,10 +35,33 @@ public class Battle : MonoBehaviour
     public void PrintAnswer(Text a)
     {
         combats1.answer.text = a.text;  //on affiche la réponse sélectionné dans notre bulle de texte
+        isWinning = true;
 
         if (a.text == combats1.goodAnswer.text)
         {
             victoryText.text = "You win !";
+
+            if(monstre1.activeInHierarchy && isWinning == true)
+            {
+                monstre1.SetActive(false);
+                monstre2.SetActive(true);
+                isWinning = false;
+            }
+            
+            if(monstre2.activeInHierarchy && isWinning == true)
+            {
+                monstre2.SetActive(false);
+                monstre3.SetActive(true);
+                isWinning = false;
+            }
+
+            if(monstre3.activeInHierarchy && isWinning == true)
+            {
+                monstre3.SetActive(false);
+                boss.SetActive(true);
+                isWinning = false;
+            }
+            
             combats.RemoveAt(randomQuestion);
             x--;
             randomQuestion = Random.Range(0, x);
