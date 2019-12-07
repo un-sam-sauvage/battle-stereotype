@@ -45,7 +45,7 @@ public class DragNDrop2 : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDr
     }
     public void Update()
     {
-        if (enabledTransfer == true)
+        if (enabledTransfer == true)    //Après 5 secondes, on désactive la bulle de texte de la foule
         {
             countdown -= Time.deltaTime;
             if (countdown <= 0)
