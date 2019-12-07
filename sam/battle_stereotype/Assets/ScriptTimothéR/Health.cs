@@ -13,7 +13,7 @@ public class Health : MonoBehaviour
     public Sprite emptyHeart;
 
     public Animator[] animationHp;
-    public float CountDown = 1f;
+    public float countDown = 0.5f;
     
 
     public void LoseLife()
@@ -24,7 +24,7 @@ public class Health : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    { // Test pour voir animation coeurs 
+    { // On lance les animations à chaque fois qu'on perd de la vie 
         if (health == 4)
         {
 
@@ -56,10 +56,15 @@ public class Health : MonoBehaviour
 
         }
 
-        if (health <= 0)// Fait apparaitre le panel GameOver
+        if (health <= 0)// Fait apparaitre le panel GameOver après un décompte
         {
-            GameOver gameOver = FindObjectOfType<GameOver>();
-            gameOver.GameOverOn();
+            countDown -= Time.deltaTime;
+
+            if(countDown <= 0)  
+            {
+                GameOver gameOver = FindObjectOfType<GameOver>();
+                gameOver.GameOverOn();
+            }
         }
 
 

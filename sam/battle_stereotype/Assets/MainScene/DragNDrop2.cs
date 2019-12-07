@@ -9,12 +9,18 @@ public class DragNDrop2 : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDr
 
     Vector2 startPosition;
     public static GameObject objectBeingDrag;
-    public GameObject panel;
+
     public GameObject bulleFoule;
     public Text answerDragged;
     public static bool enabledTransfer = false;
 
     float countdown = 5f;
+
+    void Start()
+    {
+        Input.multiTouchEnabled = false;
+    }
+
     public void OnBeginDrag(PointerEventData eventData)
     {
         enabledTransfer = false;
