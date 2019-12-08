@@ -18,7 +18,7 @@ public class DragNDrop2 : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDr
 
     void Start()
     {
-        Input.multiTouchEnabled = false;
+        Input.multiTouchEnabled = false;    //On limite le fait qu'on ait plusieurs touchés sur l'écran
     }
 
     public void OnBeginDrag(PointerEventData eventData)

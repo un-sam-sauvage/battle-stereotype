@@ -798,7 +798,7 @@ MonoBehaviour:
     goodAnswer: {fileID: 1582189954}
   - stereotype: "Les gar\xE7ons sont forts en Math\xE9matique et les sciences. "
     stePrint: {fileID: 714769858}
-    reponse1: Oui, on est les meilleurs !
+    reponse1: C'est parce qu'ils sont plus logiques
     reponse2: "Non, les maths et les sciences c\u2019est trop dur."
     reponse3: "Les gar\xE7ons comme les filles peuvent \xEAtre fort en math."
     rep1: {fileID: 1529821420}
@@ -810,7 +810,7 @@ MonoBehaviour:
     stePrint: {fileID: 714769858}
     reponse1: "Tous les gar\xE7ons ne sont pas comme \xE7a."
     reponse2: "Vrai, les sportifs n\u2019ont pas de cerveau !"
-    reponse3: "On n'est pas insolents on est honn\xEAtes "
+    reponse3: "Ils ne sont pas insolents ils sont honn\xEAtes"
     rep1: {fileID: 1529821420}
     rep2: {fileID: 1586984377}
     rep3: {fileID: 1582189954}
@@ -1130,6 +1130,11 @@ PrefabInstance:
       propertyPath: animationHp.Array.data[4]
       value: 
       objectReference: {fileID: 774480073}
+    - target: {fileID: 4708966555076263624, guid: 200e31e3c91eb8e42a1cfdafb9454f56,
+        type: 3}
+      propertyPath: countDown
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4708966555076263630, guid: 200e31e3c91eb8e42a1cfdafb9454f56,
         type: 3}
       propertyPath: m_Name
@@ -1456,6 +1461,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coeur
       objectReference: {fileID: 0}
+    - target: {fileID: 9062851256984068339, guid: 019ea0a72b3ee8b44bac0f2e7fb62d6d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 019ea0a72b3ee8b44bac0f2e7fb62d6d, type: 3}
 --- !u!224 &527189291 stripped
@@ -1727,18 +1737,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 30
     m_FontStyle: 1
     m_BestFit: 1
-    m_MinSize: 1
-    m_MaxSize: 40
-    m_Alignment: 4
+    m_MinSize: 0
+    m_MaxSize: 70
+    m_Alignment: 1
     m_AlignByGeometry: 0
-    m_RichText: 1
+    m_RichText: 0
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: fffffffffff
 --- !u!222 &714769859
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1761,11 +1771,11 @@ RectTransform:
   m_Father: {fileID: 364567924}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.08179001, y: 0.21369371}
-  m_AnchorMax: {x: 0.84845436, y: 0.9483817}
-  m_AnchoredPosition: {x: 2.06331, y: 0.9082257}
-  m_SizeDelta: {x: 70.4, y: 72.25}
-  m_Pivot: {x: 0.48205307, y: 0.5285484}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -1.48, y: 8.74}
+  m_SizeDelta: {x: 49.82, y: 39.36}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &774480071
 PrefabInstance:
   m_ObjectHideFlags: 0

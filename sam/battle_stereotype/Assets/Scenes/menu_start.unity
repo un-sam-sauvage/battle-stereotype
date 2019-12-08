@@ -186,7 +186,7 @@ MonoBehaviour:
     loop: 0
     source: {fileID: 0}
   - name: GoodSound
-    clip: {fileID: 8300000, guid: 6c3a95dd616e8b348a9536ff4434cafb, type: 3}
+    clip: {fileID: 8300000, guid: 813e40523deaa4e4cb714188a7975dcb, type: 3}
     volume: 1
     loop: 0
     source: {fileID: 0}

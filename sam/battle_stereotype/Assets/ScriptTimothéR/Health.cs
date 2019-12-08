@@ -13,12 +13,12 @@ public class Health : MonoBehaviour
     public Sprite emptyHeart;
 
     public Animator[] animationHp;
-    public float countDown = 0.5f;
+    public float countDown =1f;
     
 
     public void LoseLife()
     {
-        health--;
+        health--;   //On retire un hp
 
     }
 
