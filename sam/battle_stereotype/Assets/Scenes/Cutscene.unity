@@ -632,5 +632,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 094530db5fe39a041adbc199ed9215c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToload: MainScene
+  levelToload: Map
   timer: 27
