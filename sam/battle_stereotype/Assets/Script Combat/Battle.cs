@@ -18,6 +18,8 @@ public class Battle : MonoBehaviour
     bool isWinning = false;
     int countingAnswer = 0;
     public string sceneCredits;
+    float countDown = 1f;
+    public GameObject imageFade;
 
     // Start is called before the first frame update
     void Start()
@@ -78,7 +80,13 @@ public class Battle : MonoBehaviour
                 {
                     boss.SetActive(false);
                     FindObjectOfType<AudioManager>().Stop("BossMusic");
-                    SceneManager.LoadScene(sceneCredits);
+                    imageFade.SetActive(true);
+                    countDown -= Time.deltaTime;
+                    if (countDown <= 0)
+                    {
+                        SceneManager.LoadScene(sceneCredits);
+                    }
+                    
                 }
             }
             
