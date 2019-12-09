@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1742891399094924
+--- !u!1 &3467574613875202687
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,23 +8,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 224429802145071514}
-  - component: {fileID: 222274203434190020}
-  - component: {fileID: 114166732949082290}
+  - component: {fileID: 3676107367622539625}
+  - component: {fileID: 3678544441815448631}
+  - component: {fileID: 3570483219521398849}
   m_Layer: 5
-  m_Name: UIParticleEffect1
+  m_Name: UIParticleEffect1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &224429802145071514
+--- !u!224 &3676107367622539625
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1742891399094924}
+  m_GameObject: {fileID: 3467574613875202687}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -37,39 +37,38 @@ RectTransform:
   m_AnchoredPosition: {x: -17, y: 998}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &222274203434190020
+--- !u!222 &3678544441815448631
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1742891399094924}
+  m_GameObject: {fileID: 3467574613875202687}
   m_CullTransparentMesh: 0
---- !u!114 &114166732949082290
+--- !u!114 &3570483219521398849
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1742891399094924}
+  m_GameObject: {fileID: 3467574613875202687}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1e001449fdb41c940aae8960579eb438, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Particle: {fileID: 8011277332404630629, guid: b83fbf478853b404e9fd24803657295e,
-    type: 3}
+  Particle: {fileID: 21300000, guid: cc1aef3f93d783942a467aa6fe485b77, type: 3}
   Duration: 5
   Looping: 1
   Lifetime: 1.2
   Speed: 3
-  Size: 1
+  Size: 1.5
   Rotation: 0
   PlayOnAwake: 1
   Gravity: -50
   EmissionsPerSecond: 2
   EmissionDirection: {x: 0, y: 1}
-  EmissionAngle: 100
+  EmissionAngle: 45
   ColorOverLifetime:
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}
