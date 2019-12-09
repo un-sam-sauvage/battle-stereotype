@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -17, y: 998}
+  m_AnchoredPosition: {x: -5, y: 998}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3678544441815448631
@@ -66,9 +66,9 @@ MonoBehaviour:
   Rotation: 0
   PlayOnAwake: 1
   Gravity: -50
-  EmissionsPerSecond: 2
+  EmissionsPerSecond: 4
   EmissionDirection: {x: 0, y: 1}
-  EmissionAngle: 45
+  EmissionAngle: 200
   ColorOverLifetime:
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}
@@ -87,7 +87,7 @@ MonoBehaviour:
     ctime5: 0
     ctime6: 0
     ctime7: 0
-    atime0: 42020
+    atime0: 8481
     atime1: 65535
     atime2: 0
     atime3: 0
