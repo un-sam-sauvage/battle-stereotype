@@ -825,6 +825,7 @@ MonoBehaviour:
   monstre3: {fileID: 503872856}
   boss: {fileID: 1897152171}
   sceneCredits: "Cr\xE9dits"
+  countDown: 1
   imageFade: {fileID: 1312553064}
 --- !u!114 &114661611
 MonoBehaviour:
@@ -2221,7 +2222,7 @@ PrefabInstance:
     - target: {fileID: 3676107367622539625, guid: 4bf348b89bdd15c4898df8d6d9322ef4,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 998
+      value: 1307
       objectReference: {fileID: 0}
     - target: {fileID: 3676107367622539625, guid: 4bf348b89bdd15c4898df8d6d9322ef4,
         type: 3}
@@ -2725,7 +2726,7 @@ PrefabInstance:
     - target: {fileID: 224429802145071514, guid: dc18de6bec49a79408860f55307afa04,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 998
+      value: 1307
       objectReference: {fileID: 0}
     - target: {fileID: 224429802145071514, guid: dc18de6bec49a79408860f55307afa04,
         type: 3}
@@ -3181,7 +3182,7 @@ PrefabInstance:
     - target: {fileID: 1098593257942186228, guid: 9a9489e56dd1efd409880b99eb972f0a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.5799999
+      value: -0.58000183
       objectReference: {fileID: 0}
     - target: {fileID: 1098593257942186228, guid: 9a9489e56dd1efd409880b99eb972f0a,
         type: 3}
