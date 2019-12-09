@@ -18,7 +18,7 @@ public class Battle : MonoBehaviour
     bool isWinning = false;
     int countingAnswer = 0;
     public string sceneCredits;
-    float countDown = 1f;
+    public float countDown = 1f;
     public GameObject imageFade;
 
     // Start is called before the first frame update
@@ -76,18 +76,7 @@ public class Battle : MonoBehaviour
             if(boss.activeInHierarchy)  //Si le boss est activé dans la hiérarchie
             {
                 countingAnswer++;   //On ajoute 1 au compteur de bonnes réponses
-                if(countingAnswer >= 4) //Si le compteur atteint 4, le boss est vaincu, on va aux crédits
-                {
-                    boss.SetActive(false);
-                    FindObjectOfType<AudioManager>().Stop("BossMusic");
-                    imageFade.SetActive(true);
-                    countDown -= Time.deltaTime;
-                    if (countDown <= 0)
-                    {
-                        SceneManager.LoadScene(sceneCredits);
-                    }
-                    
-                }
+                
             }
             
             combats.RemoveAt(randomQuestion);   //On supprime la question à laquelle on vient de répondre
@@ -107,6 +96,23 @@ public class Battle : MonoBehaviour
             victoryText.text = "You loose...";
             FindObjectOfType<Health>().LoseLife();  //on lance la fonction LoseLife du script Health
             FindObjectOfType<AudioManager>().Play("ErrorSound");    //On joue le son de l'erreur
+        }
+    }
+
+    void Update()
+    {
+        if (countingAnswer >= 4) //Si le compteur atteint 4, le boss est vaincu, on va aux crédits
+        {
+            boss.SetActive(false);
+            FindObjectOfType<AudioManager>().Stop("BossMusic");
+            countDown -= Time.deltaTime;
+            imageFade.SetActive(true);
+
+            if (countDown <= 0)
+            {
+                SceneManager.LoadScene(sceneCredits);
+            }
+
         }
     }
 }
