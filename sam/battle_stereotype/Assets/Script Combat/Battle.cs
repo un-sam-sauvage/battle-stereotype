@@ -17,9 +17,12 @@ public class Battle : MonoBehaviour
     public GameObject monstre1, monstre2, monstre3, boss;
     bool isWinning = false;
     int countingAnswer = 0;
+
     public string sceneCredits;
     public float countDown = 1f;
     public GameObject imageFade;
+
+    public Image bossBubble;
 
     // Start is called before the first frame update
     void Start()
@@ -71,6 +74,7 @@ public class Battle : MonoBehaviour
                 //On arrête la musique des mobs et on joue la musique de boss
                 FindObjectOfType<AudioManager>().Stop("MobMusic");      
                 FindObjectOfType<AudioManager>().Play("BossMusic");
+                bossBubble.color = new Color(255, 0, 0);    //change la bulle du boss en rouge
             }
 
             if(boss.activeInHierarchy)  //Si le boss est activé dans la hiérarchie

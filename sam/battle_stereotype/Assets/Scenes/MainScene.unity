@@ -829,6 +829,7 @@ MonoBehaviour:
   sceneCredits: "Cr\xE9dits"
   countDown: 1
   imageFade: {fileID: 1312553064}
+  bossBubble: {fileID: 364567925}
 --- !u!114 &114661611
 MonoBehaviour:
   m_ObjectHideFlags: 0
