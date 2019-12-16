@@ -2228,7 +2228,7 @@ PrefabInstance:
     - target: {fileID: 5861313808674308654, guid: 1bbfc5cd73db549409a3efe7f2a0db61,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -28
       objectReference: {fileID: 0}
     - target: {fileID: 5861313808674308654, guid: 1bbfc5cd73db549409a3efe7f2a0db61,
         type: 3}
@@ -2248,7 +2248,7 @@ PrefabInstance:
     - target: {fileID: 5861313808674308654, guid: 1bbfc5cd73db549409a3efe7f2a0db61,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.7591482
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5861313808674308654, guid: 1bbfc5cd73db549409a3efe7f2a0db61,
         type: 3}
@@ -2258,7 +2258,7 @@ PrefabInstance:
     - target: {fileID: 5861313808674308654, guid: 1bbfc5cd73db549409a3efe7f2a0db61,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.7591482
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5861313808674308654, guid: 1bbfc5cd73db549409a3efe7f2a0db61,
         type: 3}
@@ -3134,7 +3134,7 @@ PrefabInstance:
     - target: {fileID: 7768280151559521488, guid: 621d5ce5180ae7f4eb91f380f55fab65,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -3
+      value: -29
       objectReference: {fileID: 0}
     - target: {fileID: 7768280151559521488, guid: 621d5ce5180ae7f4eb91f380f55fab65,
         type: 3}
@@ -3154,7 +3154,7 @@ PrefabInstance:
     - target: {fileID: 7768280151559521488, guid: 621d5ce5180ae7f4eb91f380f55fab65,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.7591482
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7768280151559521488, guid: 621d5ce5180ae7f4eb91f380f55fab65,
         type: 3}
@@ -3164,7 +3164,7 @@ PrefabInstance:
     - target: {fileID: 7768280151559521488, guid: 621d5ce5180ae7f4eb91f380f55fab65,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.7591482
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7768280151559521488, guid: 621d5ce5180ae7f4eb91f380f55fab65,
         type: 3}
