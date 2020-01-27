@@ -54,6 +54,14 @@ public class PauseMenu : MonoBehaviour
         SceneManager.LoadScene("menu_start");
 
     }
+
+    public void LoadCarte()
+    {// Sert à Load la Map et remet le temps de jeu à 1f
+        Time.timeScale = 1f;
+        FindObjectOfType<AudioManager>().Stop("MobMusic");
+        FindObjectOfType<AudioManager>().Stop("BossMusic");
+        SceneManager.LoadScene("Map");
+    }
     public void QuitGame()
     {//Quit l'appli
 

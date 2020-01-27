@@ -12,7 +12,16 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Script Combat/Battle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/script_menu_start/changement_scene_menu_start.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScriptTimothéR/PauseMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ScriptTimothéR/Health.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/ScriptTimothéR/PauseMenu.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1WymsFvdhYrseoxe7LkMNyekqQy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -69,7 +78,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580130414116</updated>
-      <workItem from="1580130417837" duration="1476000" />
+      <workItem from="1580130417837" duration="1478000" />
+      <workItem from="1580137014988" duration="1080000" />
     </task>
     <servers />
   </component>
@@ -83,7 +93,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
