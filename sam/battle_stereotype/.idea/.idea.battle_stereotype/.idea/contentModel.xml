@@ -56,9 +56,11 @@
           <e p="menu_start_bouton.cs" t="Include" />
           <e p="unfreezeStart.cs" t="Include" />
         </e>
-        <e p="Monstre 1 Ecole" t="Include">
-          <e p="DeathByFading.cs" t="Include" />
-          <e p="DeathByScaling.cs" t="Include" />
+        <e p="Monde1" t="Include">
+          <e p="Monstre 1 Ecole" t="Include">
+            <e p="DeathByFading.cs" t="Include" />
+            <e p="DeathByScaling.cs" t="Include" />
+          </e>
         </e>
         <e p="Music" t="Include">
           <e p="AudioManager.cs" t="Include" />
