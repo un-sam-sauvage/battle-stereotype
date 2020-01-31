@@ -496,15 +496,15 @@ RectTransform:
   - {fileID: 2117652388}
   - {fileID: 2033690475}
   - {fileID: 1691304015}
-  - {fileID: 326824816621225171}
   - {fileID: 527189291}
   - {fileID: 424562409}
   - {fileID: 825499484}
+  - {fileID: 326824816621225171}
   - {fileID: 604677780}
   - {fileID: 774480072}
-  - {fileID: 1864895263}
   - {fileID: 1312553068}
   - {fileID: 2015306343}
+  - {fileID: 1864895263}
   - {fileID: 361858017}
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -1236,7 +1236,7 @@ PrefabInstance:
     - target: {fileID: 804534756089454427, guid: 099c8a412f73e8b4cb7e82cd0a50a239,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 804534756089454427, guid: 099c8a412f73e8b4cb7e82cd0a50a239,
         type: 3}
@@ -1378,7 +1378,7 @@ PrefabInstance:
     - target: {fileID: 9062851256984068336, guid: 019ea0a72b3ee8b44bac0f2e7fb62d6d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 9062851256984068336, guid: 019ea0a72b3ee8b44bac0f2e7fb62d6d,
         type: 3}
@@ -1719,7 +1719,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 42abfb3eda3ed12448940b7b6ff63647, type: 3}
     m_FontSize: 30
     m_FontStyle: 1
     m_BestFit: 1
@@ -1940,7 +1940,7 @@ PrefabInstance:
     - target: {fileID: 6748669394421371928, guid: 7ae7b2701872a6540b302467b44094cc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 6748669394421371928, guid: 7ae7b2701872a6540b302467b44094cc,
         type: 3}
@@ -2336,7 +2336,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 114661609}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2821,6 +2821,12 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 72530290545469297, guid: 7d971cf40f8c82a42b0e8aedb5d42538,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 42abfb3eda3ed12448940b7b6ff63647,
+        type: 3}
     - target: {fileID: 72530290545469302, guid: 7d971cf40f8c82a42b0e8aedb5d42538,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -3103,6 +3109,12 @@ PrefabInstance:
       propertyPath: m_FontData.m_BestFit
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2540530838015153170, guid: 9a9489e56dd1efd409880b99eb972f0a,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 42abfb3eda3ed12448940b7b6ff63647,
+        type: 3}
     - target: {fileID: 3040827014693859843, guid: 9a9489e56dd1efd409880b99eb972f0a,
         type: 3}
       propertyPath: m_Name
@@ -3480,6 +3492,12 @@ PrefabInstance:
       propertyPath: m_FontData.m_BestFit
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7940766210111227180, guid: bc5d1e6f628041746bf5a47cce0c2339,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 42abfb3eda3ed12448940b7b6ff63647,
+        type: 3}
     - target: {fileID: 8722786613967868795, guid: bc5d1e6f628041746bf5a47cce0c2339,
         type: 3}
       propertyPath: m_Sprite
@@ -4275,7 +4293,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 114661609}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.236899, y: 0.21800001}
   m_AnchorMax: {x: 0.432165, y: 0.289875}
@@ -4820,7 +4838,7 @@ PrefabInstance:
     - target: {fileID: 3340352251550035134, guid: 53c2b3e39248fea4c9c55ade8d6cdadf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 3340352251550035134, guid: 53c2b3e39248fea4c9c55ade8d6cdadf,
         type: 3}
