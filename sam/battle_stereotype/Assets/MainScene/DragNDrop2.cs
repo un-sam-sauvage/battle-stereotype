@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -11,7 +12,7 @@ public class DragNDrop2 : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDr
     public static GameObject objectBeingDrag;
 
     public GameObject bulleFoule;
-    public Text answerDragged;
+    public TMP_Text answerDragged;
     public static bool enabledTransfer = false;
 
     float countdown = 5f;

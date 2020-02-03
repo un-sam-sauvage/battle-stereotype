@@ -41,7 +41,7 @@ public class Battle : MonoBehaviour
         combats1.rep3.text = combats1.reponse3;
     }
 
-    public void PrintAnswer(Text a)
+    public void PrintAnswer(TMP_Text a)
     {
         combats1.answer.text = a.text;  //on affiche la réponse sélectionné dans notre bulle de texte
         isWinning = true;
@@ -130,6 +130,6 @@ public class Combat //on crée une classe combat avec plusieurs éléments
     public TMP_Text stePrint;
     public string reponse1, reponse2, reponse3;
     public TMP_Text rep1, rep2, rep3;
-    public Text answer;
-    public Text goodAnswer;
+    public TMP_Text answer;
+    public TMP_Text goodAnswer;
 }
