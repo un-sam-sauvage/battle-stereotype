@@ -62,6 +62,7 @@
           </e>
         </e>
         <e p="MainScene" t="Include">
+          <e p="AnimPanelNiveau.cs" t="Include" />
           <e p="bossDetectCollision.cs" t="Include" />
           <e p="DragNDrop2.cs" t="Include" />
           <e p="tuto.cs" t="Include" />
