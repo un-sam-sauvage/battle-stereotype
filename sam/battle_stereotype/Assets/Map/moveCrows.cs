@@ -8,10 +8,9 @@ public class moveCrows : MonoBehaviour
 {
 
     // Update is called once per frame
-    void Update()
-    {
+   void Update() {
 
-        if (Input.touchCount > 0)
+       if (Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
             Vector2 touchPos = touch.position;
