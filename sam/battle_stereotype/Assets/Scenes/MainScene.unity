@@ -3272,6 +3272,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Panel
       objectReference: {fileID: 0}
+    - target: {fileID: 4943342732351493820, guid: dbf66f44a9703144da451a0f060ddce5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4943342732351493821, guid: dbf66f44a9703144da451a0f060ddce5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3380,7 +3385,7 @@ PrefabInstance:
     - target: {fileID: 4943342733404393375, guid: dbf66f44a9703144da451a0f060ddce5,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4943342733404393375, guid: dbf66f44a9703144da451a0f060ddce5,
         type: 3}
@@ -3408,6 +3413,21 @@ PrefabInstance:
       value: 'Monde 1:
 
         Ecole'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4943342733404393375, guid: dbf66f44a9703144da451a0f060ddce5,
+        type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4943342733404393375, guid: dbf66f44a9703144da451a0f060ddce5,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 4943342733404393375, guid: dbf66f44a9703144da451a0f060ddce5,
+        type: 3}
+      propertyPath: m_fontSizeMax
+      value: 125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbf66f44a9703144da451a0f060ddce5, type: 3}
