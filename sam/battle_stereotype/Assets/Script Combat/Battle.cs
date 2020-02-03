@@ -12,7 +12,7 @@ public class Battle : MonoBehaviour
     Combat combats1;
     int x;
     int randomQuestion;
-    public Text victoryText;
+    public TMP_Text victoryText;
     int death;
 
     public GameObject monstre1, monstre2, monstre3, boss;

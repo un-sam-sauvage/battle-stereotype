@@ -155,7 +155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.331532, y: 1}
-  m_AnchoredPosition: {x: 0.6999512, y: 0.80851746}
+  m_AnchoredPosition: {x: 0.6999512, y: 0.8085022}
   m_SizeDelta: {x: -0.69999695, y: -2.0999985}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &73177691
@@ -493,6 +493,7 @@ RectTransform:
   - {fileID: 1998675421}
   - {fileID: 1373541492}
   - {fileID: 695259420}
+  - {fileID: 778199442}
   - {fileID: 2117652388}
   - {fileID: 2033690475}
   - {fileID: 1691304015}
@@ -538,8 +539,8 @@ MonoBehaviour:
     rep1: {fileID: 1320823398}
     rep2: {fileID: 814553458}
     rep3: {fileID: 944620102}
-    answer: {fileID: 1423513080}
-    goodAnswer: {fileID: 1586984377}
+    answer: {fileID: 376191497}
+    goodAnswer: {fileID: 0}
   - stereotype: "Les femmes dans les manuels scolaires sont repr\xE9sent\xE9es de
       fa\xE7on tr\xE8s sexu\xE9e, pr\xE9sentes dans l\u2019univers domestique mais
       absentes dans le domaine de la politique et intellectuel.\_"
@@ -551,8 +552,8 @@ MonoBehaviour:
     rep1: {fileID: 1320823398}
     rep2: {fileID: 814553458}
     rep3: {fileID: 944620102}
-    answer: {fileID: 1423513080}
-    goodAnswer: {fileID: 1582189954}
+    answer: {fileID: 376191497}
+    goodAnswer: {fileID: 0}
   - stereotype: "Les filles doivent renoncer \xE0 certaines tenues vestimentaires."
     stePrint: {fileID: 1338947774}
     reponse1: "\xC7a ne devrait pas \xEAtre le cas ! "
@@ -561,8 +562,8 @@ MonoBehaviour:
     rep1: {fileID: 1320823398}
     rep2: {fileID: 814553458}
     rep3: {fileID: 944620102}
-    answer: {fileID: 1423513080}
-    goodAnswer: {fileID: 1529821420}
+    answer: {fileID: 376191497}
+    goodAnswer: {fileID: 0}
   - stereotype: "Les gar\xE7ons ont plus de facilit\xE9 dans le sport \xE0 l\u2019\xE9cole
       que les filles. "
     stePrint: {fileID: 1338947774}
@@ -573,8 +574,8 @@ MonoBehaviour:
     rep1: {fileID: 1320823398}
     rep2: {fileID: 814553458}
     rep3: {fileID: 944620102}
-    answer: {fileID: 1423513080}
-    goodAnswer: {fileID: 1582189954}
+    answer: {fileID: 376191497}
+    goodAnswer: {fileID: 0}
   - stereotype: "Les filles et les gar\xE7ons jouent chacun dans leurs coins, la mixit\xE9
       est mal vue"
     stePrint: {fileID: 1338947774}
@@ -585,8 +586,8 @@ MonoBehaviour:
     rep1: {fileID: 1320823398}
     rep2: {fileID: 814553458}
     rep3: {fileID: 944620102}
-    answer: {fileID: 1423513080}
-    goodAnswer: {fileID: 1586984377}
+    answer: {fileID: 376191497}
+    goodAnswer: {fileID: 0}
   - stereotype: "Les filles qui ont beaucoup de relations amoureuses seront moins
       bien vu qu\u2019un gar\xE7on m\xEAme s'ils en ont autant. "
     stePrint: {fileID: 1338947774}
@@ -596,8 +597,8 @@ MonoBehaviour:
     rep1: {fileID: 1320823398}
     rep2: {fileID: 814553458}
     rep3: {fileID: 944620102}
-    answer: {fileID: 1423513080}
-    goodAnswer: {fileID: 1582189954}
+    answer: {fileID: 376191497}
+    goodAnswer: {fileID: 0}
   - stereotype: "Les gar\xE7ons sont moins matures que les filles "
     stePrint: {fileID: 1338947774}
     reponse1: "C'est parce qu\u2019ils sont moins intelligents"
@@ -606,8 +607,8 @@ MonoBehaviour:
     rep1: {fileID: 1320823398}
     rep2: {fileID: 814553458}
     rep3: {fileID: 944620102}
-    answer: {fileID: 1423513080}
-    goodAnswer: {fileID: 1586984377}
+    answer: {fileID: 376191497}
+    goodAnswer: {fileID: 0}
   - stereotype: "Les filles sont plus bavardes que les gar\xE7ons. "
     stePrint: {fileID: 1338947774}
     reponse1: "Oui, car les filles apprennent le langage plus rapidement que les gar\xE7ons"
@@ -619,8 +620,8 @@ MonoBehaviour:
     rep1: {fileID: 1320823398}
     rep2: {fileID: 814553458}
     rep3: {fileID: 944620102}
-    answer: {fileID: 1423513080}
-    goodAnswer: {fileID: 1529821420}
+    answer: {fileID: 376191497}
+    goodAnswer: {fileID: 0}
   - stereotype: "Les filles jouent \xE0 la dinette ou \xE0 la poup\xE9e, les gar\xE7ons
       au pompier ou font du sport. "
     stePrint: {fileID: 1338947774}
@@ -630,8 +631,8 @@ MonoBehaviour:
     rep1: {fileID: 1320823398}
     rep2: {fileID: 814553458}
     rep3: {fileID: 944620102}
-    answer: {fileID: 1423513080}
-    goodAnswer: {fileID: 1582189954}
+    answer: {fileID: 376191497}
+    goodAnswer: {fileID: 0}
   - stereotype: 'Les filles ont de meilleures notes. '
     stePrint: {fileID: 1338947774}
     reponse1: Vrai, elles sont plus intelligentes
@@ -640,8 +641,8 @@ MonoBehaviour:
     rep1: {fileID: 1320823398}
     rep2: {fileID: 814553458}
     rep3: {fileID: 944620102}
-    answer: {fileID: 1423513080}
-    goodAnswer: {fileID: 1582189954}
+    answer: {fileID: 376191497}
+    goodAnswer: {fileID: 0}
   - stereotype: "Les gar\xE7ons sont forts en Math\xE9matique et les sciences. "
     stePrint: {fileID: 1338947774}
     reponse1: C'est parce qu'ils sont plus logiques
@@ -650,8 +651,8 @@ MonoBehaviour:
     rep1: {fileID: 1320823398}
     rep2: {fileID: 814553458}
     rep3: {fileID: 944620102}
-    answer: {fileID: 1423513080}
-    goodAnswer: {fileID: 1582189954}
+    answer: {fileID: 376191497}
+    goodAnswer: {fileID: 0}
   - stereotype: "Les gar\xE7ons font plus de b\xEAtises et sont plus insolents.  "
     stePrint: {fileID: 1338947774}
     reponse1: "Tous les gar\xE7ons ne sont pas comme \xE7a."
@@ -660,9 +661,9 @@ MonoBehaviour:
     rep1: {fileID: 1320823398}
     rep2: {fileID: 814553458}
     rep3: {fileID: 944620102}
-    answer: {fileID: 1423513080}
-    goodAnswer: {fileID: 1529821420}
-  victoryText: {fileID: 695259421}
+    answer: {fileID: 376191497}
+    goodAnswer: {fileID: 0}
+  victoryText: {fileID: 778199440}
   monstre1: {fileID: 944756752}
   monstre2: {fileID: 1242458400}
   monstre3: {fileID: 503872856}
@@ -817,7 +818,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.66336703, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.7000122, y: 0.30851746}
+  m_AnchoredPosition: {x: -0.7000122, y: 0.3085022}
   m_SizeDelta: {x: -2.7000122, y: -1.0999985}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &348963707
@@ -887,7 +888,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 114661609}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.90444446, y: 0.9483848}
   m_AnchorMax: {x: 0.90444446, y: 0.9483848}
@@ -1188,6 +1189,161 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 200e31e3c91eb8e42a1cfdafb9454f56, type: 3}
+--- !u!1 &376191494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 376191495}
+  - component: {fileID: 376191496}
+  - component: {fileID: 376191497}
+  m_Layer: 5
+  m_Name: answerpro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &376191495
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376191494}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2114442039}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 12.616, y: 48.6}
+  m_SizeDelta: {x: -107.11, y: -211.7}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &376191496
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376191494}
+  m_CullTransparentMesh: 0
+--- !u!114 &376191497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376191494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: New Text
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_outlineColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontSize: 40
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 20
+  m_fontSizeMax: 40
+  m_fontStyle: 0
+  m_textAlignment: 514
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_firstOverflowCharacterIndex: -1
+  m_linkedTextComponent: {fileID: 0}
+  m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_ignoreRectMaskCulling: 0
+  m_ignoreCulling: 1
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_firstVisibleCharacter: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_textInfo:
+    textComponent: {fileID: 376191497}
+    characterCount: 8
+    spriteCount: 0
+    spaceCount: 1
+    wordCount: 2
+    linkCount: 0
+    lineCount: 1
+    pageCount: 1
+    materialCount: 1
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_spriteAnimator: {fileID: 0}
+  m_hasFontAssetChanged: 0
+  m_subTextObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1001 &424562408
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1238,7 +1394,7 @@ PrefabInstance:
     - target: {fileID: 804534756089454427, guid: 099c8a412f73e8b4cb7e82cd0a50a239,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 804534756089454427, guid: 099c8a412f73e8b4cb7e82cd0a50a239,
         type: 3}
@@ -1380,7 +1536,7 @@ PrefabInstance:
     - target: {fileID: 9062851256984068336, guid: 019ea0a72b3ee8b44bac0f2e7fb62d6d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 9062851256984068336, guid: 019ea0a72b3ee8b44bac0f2e7fb62d6d,
         type: 3}
@@ -1521,7 +1677,7 @@ PrefabInstance:
     - target: {fileID: 3116205060514442682, guid: f059f9b9f474f454a912092868f51392,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 3116205060514442682, guid: f059f9b9f474f454a912092868f51392,
         type: 3}
@@ -1816,7 +1972,7 @@ PrefabInstance:
     - target: {fileID: 4699489412052223009, guid: d979140b3fbd197439a316abef170ae2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 4699489412052223009, guid: d979140b3fbd197439a316abef170ae2,
         type: 3}
@@ -1897,6 +2053,161 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 774480071}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &778199439
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 778199442}
+  - component: {fileID: 778199441}
+  - component: {fileID: 778199440}
+  m_Layer: 5
+  m_Name: victorytextpro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &778199440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778199439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: New Text
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_outlineColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_textAlignment: 257
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_firstOverflowCharacterIndex: -1
+  m_linkedTextComponent: {fileID: 0}
+  m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_ignoreRectMaskCulling: 0
+  m_ignoreCulling: 1
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_firstVisibleCharacter: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_textInfo:
+    textComponent: {fileID: 778199440}
+    characterCount: 8
+    spriteCount: 0
+    spaceCount: 1
+    wordCount: 2
+    linkCount: 0
+    lineCount: 1
+    pageCount: 1
+    materialCount: 1
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_spriteAnimator: {fileID: 0}
+  m_hasFontAssetChanged: 0
+  m_subTextObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &778199441
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778199439}
+  m_CullTransparentMesh: 0
+--- !u!224 &778199442
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778199439}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 114661609}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &814553455
 GameObject:
   m_ObjectHideFlags: 0
@@ -2097,7 +2408,7 @@ PrefabInstance:
     - target: {fileID: 6748669394421371928, guid: 7ae7b2701872a6540b302467b44094cc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6748669394421371928, guid: 7ae7b2701872a6540b302467b44094cc,
         type: 3}
@@ -2648,7 +2959,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 114661609}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -3112,18 +3423,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 5563543884614145595}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1423513080 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5563543885883376579, guid: 886300ce794922e4caefe7dba528daae,
-    type: 3}
-  m_PrefabInstance: {fileID: 5563543884614145595}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1423513079}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1453173979
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3275,7 +3574,7 @@ PrefabInstance:
     - target: {fileID: 4943342732351493820, guid: dbf66f44a9703144da451a0f060ddce5,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4943342732351493821, guid: dbf66f44a9703144da451a0f060ddce5,
         type: 3}
@@ -3315,7 +3614,7 @@ PrefabInstance:
     - target: {fileID: 4943342732351493821, guid: dbf66f44a9703144da451a0f060ddce5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 4943342732351493821, guid: dbf66f44a9703144da451a0f060ddce5,
         type: 3}
@@ -3987,7 +4286,7 @@ PrefabInstance:
     - target: {fileID: 3146329903446017352, guid: 9a9489e56dd1efd409880b99eb972f0a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.000015258789
+      value: -0.000030517578
       objectReference: {fileID: 0}
     - target: {fileID: 3146329903446017352, guid: 9a9489e56dd1efd409880b99eb972f0a,
         type: 3}
@@ -4373,7 +4672,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.331532, y: 0}
   m_AnchorMax: {x: 0.66336703, y: 1}
-  m_AnchoredPosition: {x: -0.5, y: 1.3085175}
+  m_AnchoredPosition: {x: -0.5, y: 1.3085022}
   m_SizeDelta: {x: -1.699997, y: -3.0999985}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1649964449
@@ -4510,7 +4809,7 @@ PrefabInstance:
     - target: {fileID: 6130266684416536302, guid: 152cddc5c4630244e99e312d8b51f5c6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 6130266684416536302, guid: 152cddc5c4630244e99e312d8b51f5c6,
         type: 3}
@@ -4863,7 +5162,7 @@ PrefabInstance:
     - target: {fileID: 6535239454294676819, guid: 390ac433857560c4c9f4d35b88b1ce7c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 6535239454294676819, guid: 390ac433857560c4c9f4d35b88b1ce7c,
         type: 3}
@@ -5107,7 +5406,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 114661609}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.236899, y: 0.21800001}
   m_AnchorMax: {x: 0.432165, y: 0.289875}
@@ -5261,7 +5560,7 @@ PrefabInstance:
     - target: {fileID: 6130266684416536302, guid: 152cddc5c4630244e99e312d8b51f5c6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6130266684416536302, guid: 152cddc5c4630244e99e312d8b51f5c6,
         type: 3}
@@ -5421,7 +5720,7 @@ PrefabInstance:
     - target: {fileID: 6130266684416536302, guid: 152cddc5c4630244e99e312d8b51f5c6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6130266684416536302, guid: 152cddc5c4630244e99e312d8b51f5c6,
         type: 3}
@@ -5652,7 +5951,7 @@ PrefabInstance:
     - target: {fileID: 3340352251550035134, guid: 53c2b3e39248fea4c9c55ade8d6cdadf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 3340352251550035134, guid: 53c2b3e39248fea4c9c55ade8d6cdadf,
         type: 3}
@@ -5872,7 +6171,7 @@ PrefabInstance:
     - target: {fileID: 5563543885453378829, guid: 886300ce794922e4caefe7dba528daae,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 886300ce794922e4caefe7dba528daae, type: 3}
