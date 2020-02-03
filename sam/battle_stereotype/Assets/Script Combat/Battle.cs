@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -126,9 +127,9 @@ public class Battle : MonoBehaviour
 public class Combat //on crée une classe combat avec plusieurs éléments
 {
     public string stereotype;
-    public Text stePrint;
+    public TMP_Text stePrint;
     public string reponse1, reponse2, reponse3;
-    public Text rep1, rep2, rep3;
+    public TMP_Text rep1, rep2, rep3;
     public Text answer;
     public Text goodAnswer;
 }
