@@ -14,6 +14,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Script Combat/Battle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/script_menu_start/changement_scene_menu_start.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ScriptTimothéR/PauseMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.0.1/Scripts/Editor/TMPro_FontAssetCreatorWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ScriptTimothéR/Health.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -83,6 +84,7 @@
       <workItem from="1580475213216" duration="42000" />
       <workItem from="1580478342433" duration="611000" />
       <workItem from="1580481371064" duration="73000" />
+      <workItem from="1580545923953" duration="836000" />
     </task>
     <servers />
   </component>
