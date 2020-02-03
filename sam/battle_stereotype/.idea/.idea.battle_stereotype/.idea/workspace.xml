@@ -11,10 +11,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+<<<<<<< Updated upstream
     <setting file="file://$PROJECT_DIR$/Assets/ScriptTimothéR/PauseMenu.cs" root0="FORCE_HIGHLIGHTING" />
 <<<<<<< Updated upstream
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.0.1/Scripts/Editor/TMPro_FontAssetCreatorWindow.cs" root0="SKIP_HIGHLIGHTING" />
 =======
+    <setting file="file://$PROJECT_DIR$/Assets/Script Combat/Battle.cs" root0="FORCE_HIGHLIGHTING" />
+>>>>>>> Stashed changes
+=======
+    <setting file="file://$PROJECT_DIR$/../../../../../Projets Unity/Test Google Sheet Asset/Assets/test.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Music/PlayMenuMusic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Music/Sound.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Music/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScriptTimothéR/PauseMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/script_menu_start/changement_scene_menu_start.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script Combat/Battle.cs" root0="FORCE_HIGHLIGHTING" />
 >>>>>>> Stashed changes
     <setting file="file://$PROJECT_DIR$/Assets/ScriptTimothéR/Health.cs" root0="FORCE_HIGHLIGHTING" />
@@ -26,8 +36,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/ScriptTimothéR/PauseMenu.cs" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/Assets/Map/moveCrows.cs" />
         <option value="$PROJECT_DIR$/Assets/Map/ManagerMap.cs" />
+=======
+        <option value="$PROJECT_DIR$/Assets/Script Combat/Battle.cs" />
+        <option value="$PROJECT_DIR$/../../../../../Projets Unity/Test Google Sheet Asset/Assets/test.cs" />
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>
@@ -92,10 +107,15 @@
       <workItem from="1580478342433" duration="611000" />
       <workItem from="1580481371064" duration="73000" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <workItem from="1580545923953" duration="836000" />
       <workItem from="1580734881290" duration="1195000" />
 =======
       <workItem from="1580735287106" duration="2277000" />
+>>>>>>> Stashed changes
+=======
+      <workItem from="1580547519051" duration="1402000" />
+      <workItem from="1580734808887" duration="2207000" />
 >>>>>>> Stashed changes
     </task>
     <servers />

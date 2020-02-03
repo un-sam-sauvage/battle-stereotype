@@ -4,6 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using GoogleSheetsToUnity;
 
 public class Battle : MonoBehaviour
 {
@@ -30,7 +31,7 @@ public class Battle : MonoBehaviour
     {
         x = combatSize.Length;  //x prend la taille du tableau, donc le nombre total de stéréotypes
         randomQuestion = Random.Range(0, x);    //randomQuestion prend une valeur aléatoire entre 0 et x
-        combats1 = combats[randomQuestion]; //combats1 prend tous les éléments de la classe combat, à un rang de la liste aléatoire (la liste combats)
+        //combats1 = combats[randomQuestion]; //combats1 prend tous les éléments de la classe combat, à un rang de la liste aléatoire (la liste combats)
         
         Debug.Log(x);
         //on affiche le stéréotype aléatoire dans la bulle de texte du monstre, et les réponses à ce stéréotypes dans les images contenant les réponses
@@ -39,6 +40,17 @@ public class Battle : MonoBehaviour
         combats1.rep1.text = combats1.reponse1;
         combats1.rep2.text = combats1.reponse2;
         combats1.rep3.text = combats1.reponse3;
+        
+        SpreadsheetManager.Read(new GSTU_Search("1CN1DYKG_ZcYQxbzcMlCx-TCWbpGhlV8olewa0P106J4", "FeuilleTest"), Combat);
+    }
+
+    public void Combat(GstuSpreadSheet spreadSheetRef)
+    {
+        Debug.Log(spreadSheetRef.columns["Stéréotypes"]);
+        foreach (var columnStereotype in spreadSheetRef.Cells)
+        {
+            
+        }
     }
 
     public void PrintAnswer(TMP_Text a)
