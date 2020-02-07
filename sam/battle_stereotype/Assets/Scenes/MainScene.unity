@@ -528,142 +528,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86820e035a8c8cc4192215a7ce672d82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  combatSize: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-  combats:
-  - stereotype: "Les filles sont plus susceptibles d'\xEAtre discrimin\xE9 dans le
-      milieu scolaire que les gar\xE7ons."
-    stePrint: {fileID: 1338947774}
-    reponse1: "C\u2019est faux !"
-    reponse2: "Oui, et il faut y rem\xE9dier !"
-    reponse3: "C\u2019est normal, les filles sont moins fortes !"
-    rep1: {fileID: 1320823398}
-    rep2: {fileID: 814553458}
-    rep3: {fileID: 944620102}
-    answer: {fileID: 376191497}
-    goodAnswer: {fileID: 0}
-  - stereotype: "Les femmes dans les manuels scolaires sont repr\xE9sent\xE9es de
-      fa\xE7on tr\xE8s sexu\xE9e, pr\xE9sentes dans l\u2019univers domestique mais
-      absentes dans le domaine de la politique et intellectuel.\_"
-    stePrint: {fileID: 1338947774}
-    reponse1: "Normal c\u2019est leur place"
-    reponse2: "Il ne devrait y avoir que des hommes pour casser les st\xE9r\xE9otype"
-    reponse3: "Il devrait y avoir les deux genres repr\xE9sent\xE9s de mani\xE8re
-      \xE9quitable.  "
-    rep1: {fileID: 1320823398}
-    rep2: {fileID: 814553458}
-    rep3: {fileID: 944620102}
-    answer: {fileID: 376191497}
-    goodAnswer: {fileID: 0}
-  - stereotype: "Les filles doivent renoncer \xE0 certaines tenues vestimentaires."
-    stePrint: {fileID: 1338947774}
-    reponse1: "\xC7a ne devrait pas \xEAtre le cas ! "
-    reponse2: "Mais non, ce n\u2019est pas vrai. "
-    reponse3: "Les gar\xE7ons aussi n\u2019ont pas le droit de venir d\xE9guis\xE9s... "
-    rep1: {fileID: 1320823398}
-    rep2: {fileID: 814553458}
-    rep3: {fileID: 944620102}
-    answer: {fileID: 376191497}
-    goodAnswer: {fileID: 0}
-  - stereotype: "Les gar\xE7ons ont plus de facilit\xE9 dans le sport \xE0 l\u2019\xE9cole
-      que les filles. "
-    stePrint: {fileID: 1338947774}
-    reponse1: "Oui, car Les filles ont un bar\xE8me moins \xE9lev\xE9 que les gar\xE7ons"
-    reponse2: "Oui, car les gar\xE7ons sont g\xE9n\xE9tiquement plus fort physiquement
-      que les filles"
-    reponse3: "Non, ils ont autant de difficult\xE9s / facilit\xE9s."
-    rep1: {fileID: 1320823398}
-    rep2: {fileID: 814553458}
-    rep3: {fileID: 944620102}
-    answer: {fileID: 376191497}
-    goodAnswer: {fileID: 0}
-  - stereotype: "Les filles et les gar\xE7ons jouent chacun dans leurs coins, la mixit\xE9
-      est mal vue"
-    stePrint: {fileID: 1338947774}
-    reponse1: "C'est parce que les gar\xE7ons sont mauvais dans les jeux de filles
-      et inversement"
-    reponse2: "Chacun devrait jouer \xE0 ce qu\u2019il veut avec qui il veut"
-    reponse3: "De toute fa\xE7on, je n\u2019aime pas jouer avec les gens. "
-    rep1: {fileID: 1320823398}
-    rep2: {fileID: 814553458}
-    rep3: {fileID: 944620102}
-    answer: {fileID: 376191497}
-    goodAnswer: {fileID: 0}
-  - stereotype: "Les filles qui ont beaucoup de relations amoureuses seront moins
-      bien vu qu\u2019un gar\xE7on m\xEAme s'ils en ont autant. "
-    stePrint: {fileID: 1338947774}
-    reponse1: "Les filles aiment plus se sentir aimer que les gar\xE7ons"
-    reponse2: "Les gar\xE7ons sont plus timides que les filles"
-    reponse3: 'On ne juge pas sur le nombre de relations amoureuses. '
-    rep1: {fileID: 1320823398}
-    rep2: {fileID: 814553458}
-    rep3: {fileID: 944620102}
-    answer: {fileID: 376191497}
-    goodAnswer: {fileID: 0}
-  - stereotype: "Les gar\xE7ons sont moins matures que les filles "
-    stePrint: {fileID: 1338947774}
-    reponse1: "C'est parce qu\u2019ils sont moins intelligents"
-    reponse2: "Le genre n\u2019a pas d\u2019influence sur la maturit\xE9"
-    reponse3: "Oui mais les gar\xE7ons sont plus forts physiquement. "
-    rep1: {fileID: 1320823398}
-    rep2: {fileID: 814553458}
-    rep3: {fileID: 944620102}
-    answer: {fileID: 376191497}
-    goodAnswer: {fileID: 0}
-  - stereotype: "Les filles sont plus bavardes que les gar\xE7ons. "
-    stePrint: {fileID: 1338947774}
-    reponse1: "Oui, car les filles apprennent le langage plus rapidement que les gar\xE7ons"
-    reponse2: "Non, car les gar\xE7ons sont plus \xE0 l\u2019aise \xE0 l\u2019oral"
-    reponse3: "On n'est pas bavarde, on a juste beaucoup de choses \xE0 raconter.
-      Hier par exemple, je me baladais tranquillement jusqu'\xE0 ce que je croise
-      Marie, mon amie d'enfance ! On est all\xE9 dans un caf\xE9 et on a parl\xE9
-      pendant des heures. Ca m'a rappel\xE9 le bon vieux temps quand, au coll\xE8ge..."
-    rep1: {fileID: 1320823398}
-    rep2: {fileID: 814553458}
-    rep3: {fileID: 944620102}
-    answer: {fileID: 376191497}
-    goodAnswer: {fileID: 0}
-  - stereotype: "Les filles jouent \xE0 la dinette ou \xE0 la poup\xE9e, les gar\xE7ons
-      au pompier ou font du sport. "
-    stePrint: {fileID: 1338947774}
-    reponse1: "Il n\u2019y a pas de pompiers filles"
-    reponse2: "Les gar\xE7ons ne savent pas faire \xE0 manger"
-    reponse3: "Chacun peut jouer \xE0 ce qu\u2019il veut. "
-    rep1: {fileID: 1320823398}
-    rep2: {fileID: 814553458}
-    rep3: {fileID: 944620102}
-    answer: {fileID: 376191497}
-    goodAnswer: {fileID: 0}
-  - stereotype: 'Les filles ont de meilleures notes. '
-    stePrint: {fileID: 1338947774}
-    reponse1: Vrai, elles sont plus intelligentes
-    reponse2: "Faux, les gar\xE7ons sont plus intelligents"
-    reponse3: "Vrai, les filles ont de meilleures notes que les gar\xE7ons en moyenne."
-    rep1: {fileID: 1320823398}
-    rep2: {fileID: 814553458}
-    rep3: {fileID: 944620102}
-    answer: {fileID: 376191497}
-    goodAnswer: {fileID: 0}
-  - stereotype: "Les gar\xE7ons sont forts en Math\xE9matique et les sciences. "
-    stePrint: {fileID: 1338947774}
-    reponse1: C'est parce qu'ils sont plus logiques
-    reponse2: "Non, les maths et les sciences c\u2019est trop dur."
-    reponse3: "Les gar\xE7ons comme les filles peuvent \xEAtre fort en math."
-    rep1: {fileID: 1320823398}
-    rep2: {fileID: 814553458}
-    rep3: {fileID: 944620102}
-    answer: {fileID: 376191497}
-    goodAnswer: {fileID: 0}
-  - stereotype: "Les gar\xE7ons font plus de b\xEAtises et sont plus insolents.  "
-    stePrint: {fileID: 1338947774}
-    reponse1: "Tous les gar\xE7ons ne sont pas comme \xE7a."
-    reponse2: "Vrai, les sportifs n\u2019ont pas de cerveau !"
-    reponse3: "Ils ne sont pas insolents ils sont honn\xEAtes"
-    rep1: {fileID: 1320823398}
-    rep2: {fileID: 814553458}
-    rep3: {fileID: 944620102}
-    answer: {fileID: 376191497}
-    goodAnswer: {fileID: 0}
+  index: []
+  data: []
+  listData: []
+  randomNumber: 0
+  goodAnswer: 
   victoryText: {fileID: 778199440}
+  stereotype: {fileID: 1338947774}
+  rep1: {fileID: 1320823398}
+  rep2: {fileID: 814553458}
+  rep3: {fileID: 944620102}
+  myAnswer: {fileID: 376191497}
   monstre1: {fileID: 944756752}
   monstre2: {fileID: 1242458400}
   monstre3: {fileID: 503872856}
@@ -692,7 +567,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 114661605}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 20eb082e585b7d8428d3460839011a9f, type: 3}
   m_Name: 
@@ -1127,6 +1002,31 @@ PrefabInstance:
       propertyPath: countDown
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4708966555076263624, guid: 200e31e3c91eb8e42a1cfdafb9454f56,
+        type: 3}
+      propertyPath: hearts.Array.data[0]
+      value: 
+      objectReference: {fileID: 1307674650}
+    - target: {fileID: 4708966555076263624, guid: 200e31e3c91eb8e42a1cfdafb9454f56,
+        type: 3}
+      propertyPath: hearts.Array.data[1]
+      value: 
+      objectReference: {fileID: 924491359}
+    - target: {fileID: 4708966555076263624, guid: 200e31e3c91eb8e42a1cfdafb9454f56,
+        type: 3}
+      propertyPath: hearts.Array.data[2]
+      value: 
+      objectReference: {fileID: 1105250508}
+    - target: {fileID: 4708966555076263624, guid: 200e31e3c91eb8e42a1cfdafb9454f56,
+        type: 3}
+      propertyPath: hearts.Array.data[3]
+      value: 
+      objectReference: {fileID: 964435464}
+    - target: {fileID: 4708966555076263624, guid: 200e31e3c91eb8e42a1cfdafb9454f56,
+        type: 3}
+      propertyPath: hearts.Array.data[4]
+      value: 
+      objectReference: {fileID: 499013745}
     - target: {fileID: 4708966555076263630, guid: 200e31e3c91eb8e42a1cfdafb9454f56,
         type: 3}
       propertyPath: m_Name
@@ -1480,6 +1380,18 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 424562408}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &499013745 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4699489412052223010, guid: d979140b3fbd197439a316abef170ae2,
+    type: 3}
+  m_PrefabInstance: {fileID: 774480071}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &503872856 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6130266684416536297, guid: 152cddc5c4630244e99e312d8b51f5c6,
@@ -2587,6 +2499,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 907761827}
   m_CullTransparentMesh: 0
+--- !u!114 &924491359 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 804534756089454426, guid: 099c8a412f73e8b4cb7e82cd0a50a239,
+    type: 3}
+  m_PrefabInstance: {fileID: 424562408}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &944620099
 GameObject:
   m_ObjectHideFlags: 0
@@ -2748,6 +2672,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2093243437}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &964435464 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3116205060514442681, guid: f059f9b9f474f454a912092868f51392,
+    type: 3}
+  m_PrefabInstance: {fileID: 604677779}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1099752620
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2867,12 +2803,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bbfc5cd73db549409a3efe7f2a0db61, type: 3}
+--- !u!114 &1105250508 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6748669394421371929, guid: 7ae7b2701872a6540b302467b44094cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 825499483}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1242458400 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6130266684416536297, guid: 152cddc5c4630244e99e312d8b51f5c6,
     type: 3}
   m_PrefabInstance: {fileID: 1800522080}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1307674650 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9062851256984068337, guid: 019ea0a72b3ee8b44bac0f2e7fb62d6d,
+    type: 3}
+  m_PrefabInstance: {fileID: 527189290}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1312553064
 GameObject:
   m_ObjectHideFlags: 0
@@ -6169,6 +6129,11 @@ PrefabInstance:
       value: bulle foule
       objectReference: {fileID: 0}
     - target: {fileID: 5563543885453378829, guid: 886300ce794922e4caefe7dba528daae,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563543885883376588, guid: 886300ce794922e4caefe7dba528daae,
         type: 3}
       propertyPath: m_IsActive
       value: 0

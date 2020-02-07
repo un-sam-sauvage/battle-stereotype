@@ -45,7 +45,7 @@ public class DragNDrop2 : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDr
         if (enabledTransfer == true)
         {
             Battle battle = FindObjectOfType<Battle>();
-            battle.PrintAnswer(answerDragged);
+            battle.VerifAnswer(answerDragged);
         }
 
 

@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c84b370c07161d418509239739a9524, type: 3}
   m_Name: GSTU_Config
   m_EditorClassIdentifier: Assembly-CSharp:GoogleSheetsToUnity:GoogleSheetsToUnityConfig
-  CLIENT_ID: 531373307699-1nl5f5dn8qq886ibar7gm4ve2q0l4b5c.apps.googleusercontent.com
-  CLIENT_SECRET: 531373307699-1nl5f5dn8qq886ibar7gm4ve2q0l4b5c.apps.googleusercontent.com
+  CLIENT_ID: 478391322295-j97etoemm47nkn25k8hfhsrmebs4cqs7.apps.googleusercontent.com
+  CLIENT_SECRET: WoYnSuKxrhp6Iruc5TNhT_wI
   ACCESS_TOKEN: 
   REFRESH_TOKEN: 1/kqepo9i9qIVDShLRC2c0kJgb-3DYKJevwVTF6LAfGGM
   API_Key: 
-  PORT: 1234
+  PORT: 2020
   gdr:
-    access_token: 
-    refresh_token: 
-    token_type: 
-    expires_in: 0
+    access_token: ya29.a0Adw1xeUSevuuyPNn9-HrR6E3-fDRQqMkQiFkFJJo5tivNA9MYYfP5u22M4hyM8EQ_hMYL23Ei_ed08vxxPbd0OI0_6xxcVQbyIycPpCj6-khE92_StP5f4HYQYN3i-DgEmI24wOyxg9aJXECTcZD2bYN878nDAgnAXk
+    refresh_token: 1//0389EQwVkR00OCgYIARAAGAMSNwF-L9IrGDe5pzuvPBQWVOsLRYnUFcDQiAbeJLKo8H_ymkS5GCUfw9LvbqOEMnRaOIOxGUnshTY
+    token_type: Bearer
+    expires_in: 3599

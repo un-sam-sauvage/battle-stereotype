@@ -1,19 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using System.Text;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using GoogleSheetsToUnity;
+using JetBrains.Annotations;
 
 public class Battle : MonoBehaviour
 {
-    public int[] combatSize;
-    public List<Combat> combats = new List<Combat>();
-    Combat combats1;
-    int x;
-    int randomQuestion;
-    public TMP_Text victoryText;
+    public string[] index, data;
+
+    public List<string> listData;
+
+    public int randomNumber;
+    public string goodAnswer;
+
+    
+    public TMP_Text victoryText, stereotype, rep1, rep2, rep3, myAnswer;
     int death;
 
     public GameObject monstre1, monstre2, monstre3, boss;
@@ -26,42 +32,93 @@ public class Battle : MonoBehaviour
 
     public Image bossBubble;
 
+    void Awake()
+    {
+        SpreadsheetManager.Read(new GSTU_Search("1CN1DYKG_ZcYQxbzcMlCx-TCWbpGhlV8olewa0P106J4", "FeuilleTest"), Bado);
+    }
+    
     // Start is called before the first frame update
     void Start()
     {
-        x = combatSize.Length;  //x prend la taille du tableau, donc le nombre total de stéréotypes
-        randomQuestion = Random.Range(0, x);    //randomQuestion prend une valeur aléatoire entre 0 et x
-        //combats1 = combats[randomQuestion]; //combats1 prend tous les éléments de la classe combat, à un rang de la liste aléatoire (la liste combats)
-        
-        Debug.Log(x);
-        //on affiche le stéréotype aléatoire dans la bulle de texte du monstre, et les réponses à ce stéréotypes dans les images contenant les réponses
-        combats1.stePrint.text = combats1.stereotype;   
+        string pathTxt = Application.dataPath + "/DataBaseOnline.txt";
+        Debug.Log("test apparition");
 
-        combats1.rep1.text = combats1.reponse1;
-        combats1.rep2.text = combats1.reponse2;
-        combats1.rep3.text = combats1.reponse3;
+        var fileData = File.ReadAllText(pathTxt);
         
-        SpreadsheetManager.Read(new GSTU_Search("1CN1DYKG_ZcYQxbzcMlCx-TCWbpGhlV8olewa0P106J4", "FeuilleTest"), Combat);
+        data = fileData.Split(new char[] { '\n' });
+
+        listData = new System.Collections.Generic.List<string>(data);
+        listData.RemoveAt(0);
+
+        GenerationCombat();
     }
 
-    public void Combat(GstuSpreadSheet spreadSheetRef)
+    public void Bado(GstuSpreadSheet spreadSheetRef)
     {
-        Debug.Log(spreadSheetRef.columns["Stéréotypes"]);
-        foreach (var columnStereotype in spreadSheetRef.Cells)
+        Debug.Log("yo");
+        
+        string pathTxt = Application.dataPath + "/DataBaseOnline.txt";
+        
+        StringBuilder str = new StringBuilder();
+
+        foreach (var row in spreadSheetRef.rows.primaryDictionary)
         {
+            foreach (var cell in row.Value)
+            {
+                str.Append(cell.value + "|");
+            }
+
+            str.Remove(str.Length - 1, 1);
+            str.Append("\n");
+        }
+
+        str.Remove(str.Length - 1, 1);
+        
+        File.WriteAllText(pathTxt, str.ToString());
+    }
+
+    public void GenerationCombat()
+    {
+        randomNumber = Random.Range(0, listData.Count);
+
+        for (int i = 0; i < listData.Count; i++)
+        {
+            index = listData[randomNumber].Split(new char[] {'|'});
+        }
+        
+        if (index[1].Contains("*"))
+        {
+            //index[1].Remove('*');
+            goodAnswer = index[1].ToString();
             
         }
+        else if (index[2].Contains("*"))
+        {
+            //index[2].Remove('*');
+            goodAnswer = index[2].ToString();
+        }
+        else
+        {
+            //index[3].Remove('*');
+            goodAnswer = index[3].ToString();
+        }
+
+        stereotype.text = index[0].ToString();
+        rep1.text = index[1].ToString();
+        rep2.text = index[2].ToString();
+        rep3.text = index[3].ToString();
+        
+        //VerifAnswer(myAnswer);
     }
 
-    public void PrintAnswer(TMP_Text a)
+    public void VerifAnswer(TMP_Text selectedAnswer)
     {
-        combats1.answer.text = a.text;  //on affiche la réponse sélectionné dans notre bulle de texte
         isWinning = true;
 
-        if (a.text == combats1.goodAnswer.text) //Si la réponse sélectionné est égale à la bonne réponse
+        if (selectedAnswer.text == goodAnswer.ToString()) //Si la réponse sélectionné est égale à la bonne réponse
         {
             victoryText.text = "You win !";
-            FindObjectOfType<AudioManager>().Play("GoodSound"); //On joue le son de victoire
+            //FindObjectOfType<AudioManager>().Play("GoodSound"); //On joue le son de victoire
 
                 //Les boucles if servent à changer de monstre à chaque fois
             if (monstre1.activeInHierarchy && isWinning == true)
@@ -85,8 +142,8 @@ public class Battle : MonoBehaviour
                 isWinning = false;
 
                 //On arrête la musique des mobs et on joue la musique de boss
-                FindObjectOfType<AudioManager>().Stop("MobMusic");      
-                FindObjectOfType<AudioManager>().Play("BossMusic");
+                //FindObjectOfType<AudioManager>().Stop("MobMusic");      
+                //FindObjectOfType<AudioManager>().Play("BossMusic");
                 bossBubble.color = new Color(255, 0, 0);    //change la bulle du boss en rouge
             }
 
@@ -96,32 +153,34 @@ public class Battle : MonoBehaviour
                 
             }
             
-            combats.RemoveAt(randomQuestion);   //On supprime la question à laquelle on vient de répondre
-            x--;    //On retire 1 à x
-            randomQuestion = Random.Range(0, x);    //On redéfinit randomQuestion avec une valeur maximum réduite précedemment
-
-            combats1 = combats[randomQuestion]; //combats1 prend un élément aléatoire de la liste combats et tous les élements de celui-ci
-
-            combats1.stePrint.text = combats1.stereotype;
-
-            combats1.rep1.text = combats1.reponse1;
-            combats1.rep2.text = combats1.reponse2;
-            combats1.rep3.text = combats1.reponse3;
+            DeleteStereotype();   //On supprime la question à laquelle on vient de répondre
+            
         }
         else
         {
             victoryText.text = "You loose...";
-            FindObjectOfType<Health>().LoseLife();  //on lance la fonction LoseLife du script Health
-            FindObjectOfType<AudioManager>().Play("ErrorSound");    //On joue le son de l'erreur
+            //FindObjectOfType<Health>().LoseLife();  //on lance la fonction LoseLife du script Health
+            //FindObjectOfType<AudioManager>().Play("ErrorSound");    //On joue le son de l'erreur
         }
     }
+    
+    void DeleteStereotype()
+    {
+        if (listData.Count > 1)
+        {
+            listData.RemoveAt(randomNumber);
+        }
+        
+        //GenerationCombat();
+    }
+    
 
     void Update()
     {
         if (countingAnswer >= 4) //Si le compteur atteint 4, le boss est vaincu, on va aux crédits
         {
             boss.SetActive(false);
-            FindObjectOfType<AudioManager>().Stop("BossMusic");
+            //FindObjectOfType<AudioManager>().Stop("BossMusic");
             countDown -= Time.deltaTime;
             imageFade.SetActive(true);
 
@@ -132,16 +191,4 @@ public class Battle : MonoBehaviour
 
         }
     }
-}
-
-
-[System.Serializable]
-public class Combat //on crée une classe combat avec plusieurs éléments
-{
-    public string stereotype;
-    public TMP_Text stePrint;
-    public string reponse1, reponse2, reponse3;
-    public TMP_Text rep1, rep2, rep3;
-    public TMP_Text answer;
-    public TMP_Text goodAnswer;
 }

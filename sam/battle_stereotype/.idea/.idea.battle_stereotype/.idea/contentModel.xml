@@ -7,6 +7,7 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="DataBaseOnline.txt" t="Include" />
         <e p="Demigiant" t="Include">
           <e p="DOTween" t="Include">
             <e p="Modules" t="Include">
@@ -89,6 +90,7 @@
         </e>
         <e p="Script Combat" t="Include">
           <e p="Battle.cs" t="Include" />
+          <e p="test.cs" t="Include" />
         </e>
         <e p="script_menu_start" t="Include">
           <e p="changement_scene_menu_start.cs" t="Include" />
