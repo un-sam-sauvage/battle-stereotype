@@ -32,6 +32,9 @@ public class Battle : MonoBehaviour
 
     public Image bossBubble;
 
+    public GameObject mainTuto;
+    private bool _firstAnswer;
+
     void Awake()
     {
         SpreadsheetManager.Read(new GSTU_Search("1CN1DYKG_ZcYQxbzcMlCx-TCWbpGhlV8olewa0P106J4", "FeuilleTest"), Bado);
@@ -118,6 +121,13 @@ public class Battle : MonoBehaviour
         if (selectedAnswer.text == goodAnswer.ToString()) //Si la réponse sélectionné est égale à la bonne réponse
         {
             victoryText.text = "You win !";
+            //désative le tutoriel.
+            if (_firstAnswer)
+            {
+                mainTuto.SetActive(false);
+                _firstAnswer = false;
+            }
+            
             //FindObjectOfType<AudioManager>().Play("GoodSound"); //On joue le son de victoire
 
                 //Les boucles if servent à changer de monstre à chaque fois

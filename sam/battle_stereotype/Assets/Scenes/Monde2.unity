@@ -366,12 +366,12 @@ RectTransform:
   - {fileID: 860923253}
   - {fileID: 1125079548}
   - {fileID: 597789011}
-  - {fileID: 1172252485}
   - {fileID: 527189291}
   - {fileID: 326824816621225171}
+  - {fileID: 1312553068}
   - {fileID: 424562409}
   - {fileID: 825499484}
-  - {fileID: 1312553068}
+  - {fileID: 1172252485}
   - {fileID: 604677780}
   - {fileID: 774480072}
   - {fileID: 1864895263}
@@ -397,142 +397,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86820e035a8c8cc4192215a7ce672d82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  combatSize: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-  combats:
-  - stereotype: "Les filles sont plus susceptibles d'\xEAtre discrimin\xE9 dans le
-      milieu scolaire que les gar\xE7ons."
-    stePrint: {fileID: 0}
-    reponse1: "C\u2019est faux !"
-    reponse2: "Oui, et il faut y rem\xE9dier !"
-    reponse3: "C\u2019est normal, les filles sont moins fortes !"
-    rep1: {fileID: 0}
-    rep2: {fileID: 0}
-    rep3: {fileID: 0}
-    answer: {fileID: 0}
-    goodAnswer: {fileID: 0}
-  - stereotype: "Les femmes dans les manuels scolaires sont repr\xE9sent\xE9es de
-      fa\xE7on tr\xE8s sexu\xE9e, pr\xE9sentes dans l\u2019univers domestique mais
-      absentes dans le domaine de la politique et intellectuel.\_"
-    stePrint: {fileID: 0}
-    reponse1: "Normal c\u2019est leur place"
-    reponse2: "Il ne devrait y avoir que des hommes pour casser les st\xE9r\xE9otype"
-    reponse3: "Il devrait y avoir les deux genres repr\xE9sent\xE9s de mani\xE8re
-      \xE9quitable.  "
-    rep1: {fileID: 0}
-    rep2: {fileID: 0}
-    rep3: {fileID: 0}
-    answer: {fileID: 0}
-    goodAnswer: {fileID: 0}
-  - stereotype: "Les filles doivent renoncer \xE0 certaines tenues vestimentaires."
-    stePrint: {fileID: 0}
-    reponse1: "\xC7a ne devrait pas \xEAtre le cas ! "
-    reponse2: "Mais non, ce n\u2019est pas vrai. "
-    reponse3: "Les gar\xE7ons aussi n\u2019ont pas le droit de venir d\xE9guis\xE9s... "
-    rep1: {fileID: 0}
-    rep2: {fileID: 0}
-    rep3: {fileID: 0}
-    answer: {fileID: 0}
-    goodAnswer: {fileID: 0}
-  - stereotype: "Les gar\xE7ons ont plus de facilit\xE9 dans le sport \xE0 l\u2019\xE9cole
-      que les filles. "
-    stePrint: {fileID: 0}
-    reponse1: "Oui, car Les filles ont un bar\xE8me moins \xE9lev\xE9 que les gar\xE7ons"
-    reponse2: "Oui, car les gar\xE7ons sont g\xE9n\xE9tiquement plus fort physiquement
-      que les filles"
-    reponse3: "Non, ils ont autant de difficult\xE9s / facilit\xE9s."
-    rep1: {fileID: 0}
-    rep2: {fileID: 0}
-    rep3: {fileID: 0}
-    answer: {fileID: 0}
-    goodAnswer: {fileID: 0}
-  - stereotype: "Les filles et les gar\xE7ons jouent chacun dans leurs coins, la mixit\xE9
-      est mal vue"
-    stePrint: {fileID: 0}
-    reponse1: "C'est parce que les gar\xE7ons sont mauvais dans les jeux de filles
-      et inversement"
-    reponse2: "Chacun devrait jouer \xE0 ce qu\u2019il veut avec qui il veut"
-    reponse3: "De toute fa\xE7on, je n\u2019aime pas jouer avec les gens. "
-    rep1: {fileID: 0}
-    rep2: {fileID: 0}
-    rep3: {fileID: 0}
-    answer: {fileID: 0}
-    goodAnswer: {fileID: 0}
-  - stereotype: "Les filles qui ont beaucoup de relations amoureuses seront moins
-      bien vu qu\u2019un gar\xE7on m\xEAme s'ils en ont autant. "
-    stePrint: {fileID: 0}
-    reponse1: "Les filles aiment plus se sentir aimer que les gar\xE7ons"
-    reponse2: "Les gar\xE7ons sont plus timides que les filles"
-    reponse3: 'On ne juge pas sur le nombre de relations amoureuses. '
-    rep1: {fileID: 0}
-    rep2: {fileID: 0}
-    rep3: {fileID: 0}
-    answer: {fileID: 0}
-    goodAnswer: {fileID: 0}
-  - stereotype: "Les gar\xE7ons sont moins matures que les filles "
-    stePrint: {fileID: 0}
-    reponse1: "C'est parce qu\u2019ils sont moins intelligents"
-    reponse2: "Le genre n\u2019a pas d\u2019influence sur la maturit\xE9"
-    reponse3: "Oui mais les gar\xE7ons sont plus forts physiquement. "
-    rep1: {fileID: 0}
-    rep2: {fileID: 0}
-    rep3: {fileID: 0}
-    answer: {fileID: 0}
-    goodAnswer: {fileID: 0}
-  - stereotype: "Les filles sont plus bavardes que les gar\xE7ons. "
-    stePrint: {fileID: 0}
-    reponse1: "Oui, car les filles apprennent le langage plus rapidement que les gar\xE7ons"
-    reponse2: "Non, car les gar\xE7ons sont plus \xE0 l\u2019aise \xE0 l\u2019oral"
-    reponse3: "On n'est pas bavarde, on a juste beaucoup de choses \xE0 raconter.
-      Hier par exemple, je me baladais tranquillement jusqu'\xE0 ce que je croise
-      Marie, mon amie d'enfance ! On est all\xE9 dans un caf\xE9 et on a parl\xE9
-      pendant des heures. Ca m'a rappel\xE9 le bon vieux temps quand, au coll\xE8ge..."
-    rep1: {fileID: 0}
-    rep2: {fileID: 0}
-    rep3: {fileID: 0}
-    answer: {fileID: 0}
-    goodAnswer: {fileID: 0}
-  - stereotype: "Les filles jouent \xE0 la dinette ou \xE0 la poup\xE9e, les gar\xE7ons
-      au pompier ou font du sport. "
-    stePrint: {fileID: 0}
-    reponse1: "Il n\u2019y a pas de pompiers filles"
-    reponse2: "Les gar\xE7ons ne savent pas faire \xE0 manger"
-    reponse3: "Chacun peut jouer \xE0 ce qu\u2019il veut. "
-    rep1: {fileID: 0}
-    rep2: {fileID: 0}
-    rep3: {fileID: 0}
-    answer: {fileID: 0}
-    goodAnswer: {fileID: 0}
-  - stereotype: 'Les filles ont de meilleures notes. '
-    stePrint: {fileID: 0}
-    reponse1: Vrai, elles sont plus intelligentes
-    reponse2: "Faux, les gar\xE7ons sont plus intelligents"
-    reponse3: "Vrai, les filles ont de meilleures notes que les gar\xE7ons en moyenne."
-    rep1: {fileID: 0}
-    rep2: {fileID: 0}
-    rep3: {fileID: 0}
-    answer: {fileID: 0}
-    goodAnswer: {fileID: 0}
-  - stereotype: "Les gar\xE7ons sont forts en Math\xE9matique et les sciences. "
-    stePrint: {fileID: 0}
-    reponse1: C'est parce qu'ils sont plus logiques
-    reponse2: "Non, les maths et les sciences c\u2019est trop dur."
-    reponse3: "Les gar\xE7ons comme les filles peuvent \xEAtre fort en math."
-    rep1: {fileID: 0}
-    rep2: {fileID: 0}
-    rep3: {fileID: 0}
-    answer: {fileID: 0}
-    goodAnswer: {fileID: 0}
-  - stereotype: "Les gar\xE7ons font plus de b\xEAtises et sont plus insolents.  "
-    stePrint: {fileID: 0}
-    reponse1: "Tous les gar\xE7ons ne sont pas comme \xE7a."
-    reponse2: "Vrai, les sportifs n\u2019ont pas de cerveau !"
-    reponse3: "Ils ne sont pas insolents ils sont honn\xEAtes"
-    rep1: {fileID: 0}
-    rep2: {fileID: 0}
-    rep3: {fileID: 0}
-    answer: {fileID: 0}
-    goodAnswer: {fileID: 0}
+  index: []
+  data: []
+  listData: []
+  randomNumber: 0
+  goodAnswer: 
   victoryText: {fileID: 0}
+  stereotype: {fileID: 0}
+  rep1: {fileID: 0}
+  rep2: {fileID: 0}
+  rep3: {fileID: 0}
+  myAnswer: {fileID: 0}
   monstre1: {fileID: 273538370}
   monstre2: {fileID: 1125079547}
   monstre3: {fileID: 597789010}
@@ -541,6 +416,7 @@ MonoBehaviour:
   countDown: 1
   imageFade: {fileID: 1312553064}
   bossBubble: {fileID: 364567925}
+  mainTuto: {fileID: 2015306342}
 --- !u!114 &114661611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1252,7 +1128,7 @@ PrefabInstance:
     - target: {fileID: 9062851256984068336, guid: 019ea0a72b3ee8b44bac0f2e7fb62d6d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 9062851256984068336, guid: 019ea0a72b3ee8b44bac0f2e7fb62d6d,
         type: 3}
@@ -3304,7 +3180,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 114661609}
-  m_RootOrder: 17
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -5137,7 +5013,7 @@ PrefabInstance:
     - target: {fileID: 3340352251550035134, guid: 53c2b3e39248fea4c9c55ade8d6cdadf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 3340352251550035134, guid: 53c2b3e39248fea4c9c55ade8d6cdadf,
         type: 3}

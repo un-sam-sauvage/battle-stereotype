@@ -15,11 +15,11 @@ public class AnimPanelNiveau : MonoBehaviour
     {
         
         img = GetComponent<Image>();
-        
+        //permet de faire une animation pour montrer dans quel monde nous sommes.
         Sequence mySequence = DOTween.Sequence();
         mySequence.Append(transform.DOScale(new Vector2(1.5f, 1.5f), 5));
         mySequence.Join(img.DOFade(0,5));
-        mySequence.Join(GetComponentInChildren<TextMeshProUGUI>().DOFade(0, 5));
+        mySequence.Join(GetComponentInChildren<TextMeshProUGUI>().DOFade(0, 5).OnComplete(()=>gameObject.SetActive(false)));
     }
 
 }
