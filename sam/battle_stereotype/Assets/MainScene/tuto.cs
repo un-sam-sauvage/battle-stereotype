@@ -6,10 +6,9 @@ public class tuto : MonoBehaviour
 {
     public GameObject handTuto;
 
-    // Update is called once per frame
-    void Update()
+    public void UndoTuto(bool disableTuto)
     {
-        if (Input.touchCount > 0)
+        if (disableTuto)
         {
             handTuto.SetActive(false);
         }

@@ -367,8 +367,8 @@ RectTransform:
   - {fileID: 1125079548}
   - {fileID: 597789011}
   - {fileID: 1172252485}
-  - {fileID: 326824816621225171}
   - {fileID: 527189291}
+  - {fileID: 326824816621225171}
   - {fileID: 424562409}
   - {fileID: 825499484}
   - {fileID: 1312553068}
@@ -408,8 +408,8 @@ MonoBehaviour:
     rep1: {fileID: 0}
     rep2: {fileID: 0}
     rep3: {fileID: 0}
-    answer: {fileID: 1423513080}
-    goodAnswer: {fileID: 1586984377}
+    answer: {fileID: 0}
+    goodAnswer: {fileID: 0}
   - stereotype: "Les femmes dans les manuels scolaires sont repr\xE9sent\xE9es de
       fa\xE7on tr\xE8s sexu\xE9e, pr\xE9sentes dans l\u2019univers domestique mais
       absentes dans le domaine de la politique et intellectuel.\_"
@@ -421,8 +421,8 @@ MonoBehaviour:
     rep1: {fileID: 0}
     rep2: {fileID: 0}
     rep3: {fileID: 0}
-    answer: {fileID: 1423513080}
-    goodAnswer: {fileID: 1582189954}
+    answer: {fileID: 0}
+    goodAnswer: {fileID: 0}
   - stereotype: "Les filles doivent renoncer \xE0 certaines tenues vestimentaires."
     stePrint: {fileID: 0}
     reponse1: "\xC7a ne devrait pas \xEAtre le cas ! "
@@ -431,8 +431,8 @@ MonoBehaviour:
     rep1: {fileID: 0}
     rep2: {fileID: 0}
     rep3: {fileID: 0}
-    answer: {fileID: 1423513080}
-    goodAnswer: {fileID: 1529821420}
+    answer: {fileID: 0}
+    goodAnswer: {fileID: 0}
   - stereotype: "Les gar\xE7ons ont plus de facilit\xE9 dans le sport \xE0 l\u2019\xE9cole
       que les filles. "
     stePrint: {fileID: 0}
@@ -443,8 +443,8 @@ MonoBehaviour:
     rep1: {fileID: 0}
     rep2: {fileID: 0}
     rep3: {fileID: 0}
-    answer: {fileID: 1423513080}
-    goodAnswer: {fileID: 1582189954}
+    answer: {fileID: 0}
+    goodAnswer: {fileID: 0}
   - stereotype: "Les filles et les gar\xE7ons jouent chacun dans leurs coins, la mixit\xE9
       est mal vue"
     stePrint: {fileID: 0}
@@ -455,8 +455,8 @@ MonoBehaviour:
     rep1: {fileID: 0}
     rep2: {fileID: 0}
     rep3: {fileID: 0}
-    answer: {fileID: 1423513080}
-    goodAnswer: {fileID: 1586984377}
+    answer: {fileID: 0}
+    goodAnswer: {fileID: 0}
   - stereotype: "Les filles qui ont beaucoup de relations amoureuses seront moins
       bien vu qu\u2019un gar\xE7on m\xEAme s'ils en ont autant. "
     stePrint: {fileID: 0}
@@ -466,8 +466,8 @@ MonoBehaviour:
     rep1: {fileID: 0}
     rep2: {fileID: 0}
     rep3: {fileID: 0}
-    answer: {fileID: 1423513080}
-    goodAnswer: {fileID: 1582189954}
+    answer: {fileID: 0}
+    goodAnswer: {fileID: 0}
   - stereotype: "Les gar\xE7ons sont moins matures que les filles "
     stePrint: {fileID: 0}
     reponse1: "C'est parce qu\u2019ils sont moins intelligents"
@@ -476,8 +476,8 @@ MonoBehaviour:
     rep1: {fileID: 0}
     rep2: {fileID: 0}
     rep3: {fileID: 0}
-    answer: {fileID: 1423513080}
-    goodAnswer: {fileID: 1586984377}
+    answer: {fileID: 0}
+    goodAnswer: {fileID: 0}
   - stereotype: "Les filles sont plus bavardes que les gar\xE7ons. "
     stePrint: {fileID: 0}
     reponse1: "Oui, car les filles apprennent le langage plus rapidement que les gar\xE7ons"
@@ -489,8 +489,8 @@ MonoBehaviour:
     rep1: {fileID: 0}
     rep2: {fileID: 0}
     rep3: {fileID: 0}
-    answer: {fileID: 1423513080}
-    goodAnswer: {fileID: 1529821420}
+    answer: {fileID: 0}
+    goodAnswer: {fileID: 0}
   - stereotype: "Les filles jouent \xE0 la dinette ou \xE0 la poup\xE9e, les gar\xE7ons
       au pompier ou font du sport. "
     stePrint: {fileID: 0}
@@ -500,8 +500,8 @@ MonoBehaviour:
     rep1: {fileID: 0}
     rep2: {fileID: 0}
     rep3: {fileID: 0}
-    answer: {fileID: 1423513080}
-    goodAnswer: {fileID: 1582189954}
+    answer: {fileID: 0}
+    goodAnswer: {fileID: 0}
   - stereotype: 'Les filles ont de meilleures notes. '
     stePrint: {fileID: 0}
     reponse1: Vrai, elles sont plus intelligentes
@@ -510,8 +510,8 @@ MonoBehaviour:
     rep1: {fileID: 0}
     rep2: {fileID: 0}
     rep3: {fileID: 0}
-    answer: {fileID: 1423513080}
-    goodAnswer: {fileID: 1582189954}
+    answer: {fileID: 0}
+    goodAnswer: {fileID: 0}
   - stereotype: "Les gar\xE7ons sont forts en Math\xE9matique et les sciences. "
     stePrint: {fileID: 0}
     reponse1: C'est parce qu'ils sont plus logiques
@@ -520,8 +520,8 @@ MonoBehaviour:
     rep1: {fileID: 0}
     rep2: {fileID: 0}
     rep3: {fileID: 0}
-    answer: {fileID: 1423513080}
-    goodAnswer: {fileID: 1582189954}
+    answer: {fileID: 0}
+    goodAnswer: {fileID: 0}
   - stereotype: "Les gar\xE7ons font plus de b\xEAtises et sont plus insolents.  "
     stePrint: {fileID: 0}
     reponse1: "Tous les gar\xE7ons ne sont pas comme \xE7a."
@@ -530,9 +530,9 @@ MonoBehaviour:
     rep1: {fileID: 0}
     rep2: {fileID: 0}
     rep3: {fileID: 0}
-    answer: {fileID: 1423513080}
-    goodAnswer: {fileID: 1529821420}
-  victoryText: {fileID: 695259421}
+    answer: {fileID: 0}
+    goodAnswer: {fileID: 0}
+  victoryText: {fileID: 0}
   monstre1: {fileID: 273538370}
   monstre2: {fileID: 1125079547}
   monstre3: {fileID: 597789010}
@@ -1252,7 +1252,7 @@ PrefabInstance:
     - target: {fileID: 9062851256984068336, guid: 019ea0a72b3ee8b44bac0f2e7fb62d6d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 9062851256984068336, guid: 019ea0a72b3ee8b44bac0f2e7fb62d6d,
         type: 3}
@@ -3442,18 +3442,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 5563543884614145595}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1423513080 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5563543885883376579, guid: 886300ce794922e4caefe7dba528daae,
-    type: 3}
-  m_PrefabInstance: {fileID: 5563543884614145595}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1423513079}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &1475040875 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5861313808674308654, guid: 1bbfc5cd73db549409a3efe7f2a0db61,
@@ -4918,7 +4906,7 @@ GameObject:
   - component: {fileID: 2015306345}
   - component: {fileID: 2015306344}
   m_Layer: 5
-  m_Name: Image
+  m_Name: mainTuto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5149,7 +5137,7 @@ PrefabInstance:
     - target: {fileID: 3340352251550035134, guid: 53c2b3e39248fea4c9c55ade8d6cdadf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 3340352251550035134, guid: 53c2b3e39248fea4c9c55ade8d6cdadf,
         type: 3}
