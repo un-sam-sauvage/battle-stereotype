@@ -23,7 +23,6 @@ public class changement_scene_menu_start : MonoBehaviour
         {
             
             countdown -= Time.deltaTime;
-            Debug.Log(countdown);
         }
         //une fois que le compte à rebours est fini, change de scène.
         if (countdown <= 0)

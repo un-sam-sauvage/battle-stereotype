@@ -11,9 +11,9 @@ using JetBrains.Annotations;
 
 public class Battle : MonoBehaviour
 {
-    public string[] index, data;
+    public string[] index;
 
-    public List<string> listData;
+    public List<string> listData = new List<string>();
 
     public int randomNumber;
     public string goodAnswer;
@@ -37,48 +37,18 @@ public class Battle : MonoBehaviour
 
     void Awake()
     {
-        SpreadsheetManager.Read(new GSTU_Search("1CN1DYKG_ZcYQxbzcMlCx-TCWbpGhlV8olewa0P106J4", "FeuilleTest"), Bado);
+        DataBase dataBase = FindObjectOfType<DataBase>();
+        listData = dataBase.listData;
     }
     
     // Start is called before the first frame update
     void Start()
     {
-        string pathTxt = Application.dataPath + "/DataBaseOnline.txt";
-        Debug.Log("test apparition");
-
-        var fileData = File.ReadAllText(pathTxt);
-        
-        data = fileData.Split(new char[] { '\n' });
-
-        listData = new System.Collections.Generic.List<string>(data);
-        listData.RemoveAt(0);
 
         GenerationCombat();
     }
 
-    public void Bado(GstuSpreadSheet spreadSheetRef)
-    {
-        Debug.Log("yo");
-        
-        string pathTxt = Application.dataPath + "/DataBaseOnline.txt";
-        
-        StringBuilder str = new StringBuilder();
-
-        foreach (var row in spreadSheetRef.rows.primaryDictionary)
-        {
-            foreach (var cell in row.Value)
-            {
-                str.Append(cell.value + "|");
-            }
-
-            str.Remove(str.Length - 1, 1);
-            str.Append("\n");
-        }
-
-        str.Remove(str.Length - 1, 1);
-        
-        File.WriteAllText(pathTxt, str.ToString());
-    }
+    
 
     public void GenerationCombat()
     {
@@ -91,36 +61,43 @@ public class Battle : MonoBehaviour
         
         if (index[1].Contains("*"))
         {
-            //index[1].Remove('*');
-            goodAnswer = index[1].ToString();
+            //index[1].Remove(0, 1);
+            goodAnswer = index[1][1].ToString();
             
         }
         else if (index[2].Contains("*"))
         {
-            //index[2].Remove('*');
+            //index[2].Remove(0, 1);
             goodAnswer = index[2].ToString();
         }
         else
         {
-            //index[3].Remove('*');
+            //index[3].Remove(0, 1);
             goodAnswer = index[3].ToString();
         }
 
         stereotype.text = index[0].ToString();
+        
         rep1.text = index[1].ToString();
         rep2.text = index[2].ToString();
         rep3.text = index[3].ToString();
         
-        //VerifAnswer(myAnswer);
     }
 
     public void VerifAnswer(TMP_Text selectedAnswer)
     {
+        
+        myAnswer.text = selectedAnswer.text;
+        
+            
+        
         isWinning = true;
+        
 
         if (selectedAnswer.text == goodAnswer.ToString()) //Si la réponse sélectionné est égale à la bonne réponse
         {
             victoryText.text = "You win !";
+            
             //désative le tutoriel.
             if (_firstAnswer)
             {
@@ -128,32 +105,32 @@ public class Battle : MonoBehaviour
                 _firstAnswer = false;
             }
             
-            //FindObjectOfType<AudioManager>().Play("GoodSound"); //On joue le son de victoire
+            FindObjectOfType<AudioManager>().Play("GoodSound"); //On joue le son de victoire
 
                 //Les boucles if servent à changer de monstre à chaque fois
-            if (monstre1.activeInHierarchy && isWinning == true)
+            if (monstre1.activeInHierarchy && isWinning)
             {
                 monstre1.SetActive(false);
                 monstre2.SetActive(true);
                 isWinning = false;
             }
             
-            if(monstre2.activeInHierarchy && isWinning == true)
+            if(monstre2.activeInHierarchy && isWinning)
             {
                 monstre2.SetActive(false);
                 monstre3.SetActive(true);
                 isWinning = false;
             }
 
-            if(monstre3.activeInHierarchy && isWinning == true)
+            if(monstre3.activeInHierarchy && isWinning)
             {
                 monstre3.SetActive(false);
                 boss.SetActive(true);
                 isWinning = false;
 
                 //On arrête la musique des mobs et on joue la musique de boss
-                //FindObjectOfType<AudioManager>().Stop("MobMusic");      
-                //FindObjectOfType<AudioManager>().Play("BossMusic");
+                FindObjectOfType<AudioManager>().Stop("MobMusic");      
+                FindObjectOfType<AudioManager>().Play("BossMusic");
                 bossBubble.color = new Color(255, 0, 0);    //change la bulle du boss en rouge
             }
 
@@ -169,8 +146,8 @@ public class Battle : MonoBehaviour
         else
         {
             victoryText.text = "You loose...";
-            //FindObjectOfType<Health>().LoseLife();  //on lance la fonction LoseLife du script Health
-            //FindObjectOfType<AudioManager>().Play("ErrorSound");    //On joue le son de l'erreur
+            FindObjectOfType<Health>().LoseLife();  //on lance la fonction LoseLife du script Health
+            FindObjectOfType<AudioManager>().Play("ErrorSound");    //On joue le son de l'erreur
         }
     }
     
@@ -181,7 +158,7 @@ public class Battle : MonoBehaviour
             listData.RemoveAt(randomNumber);
         }
         
-        //GenerationCombat();
+        GenerationCombat();
     }
     
 
@@ -190,13 +167,13 @@ public class Battle : MonoBehaviour
         if (countingAnswer >= 4) //Si le compteur atteint 4, le boss est vaincu, on va aux crédits
         {
             boss.SetActive(false);
-            //FindObjectOfType<AudioManager>().Stop("BossMusic");
+            FindObjectOfType<AudioManager>().Stop("BossMusic");
             countDown -= Time.deltaTime;
             imageFade.SetActive(true);
 
             if (countDown <= 0)
             {
-                SceneManager.LoadScene(sceneCredits);
+                SceneManager.LoadScene("Monde2");
             }
 
         }

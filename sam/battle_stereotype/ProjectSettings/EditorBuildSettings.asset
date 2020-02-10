@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainScene.unity
     guid: cde1da70a446c8a47805df2eeab46796
   - enabled: 1
+    path: Assets/Scenes/Monde2.unity
+    guid: cd69a4c64b45f504a8a1f36ee4f90691
+  - enabled: 1
     path: "Assets/Scenes/Cr\xE9dits.unity"
     guid: 39893056853b2244bb43e2c74f716b44
   m_configObjects: {}
