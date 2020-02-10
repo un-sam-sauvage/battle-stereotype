@@ -275,7 +275,7 @@ PrefabInstance:
     - target: {fileID: 3953416456277328470, guid: 9cad2d8778753f34fb75b0ec378de9c4,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3953416456277328470, guid: 9cad2d8778753f34fb75b0ec378de9c4,
         type: 3}
@@ -3284,12 +3284,12 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 70
+  m_fontSize: 65
   m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 30
-  m_fontSizeMax: 70
+  m_fontSizeMin: 25
+  m_fontSizeMax: 65
   m_fontStyle: 0
   m_textAlignment: 258
   m_characterSpacing: 0
@@ -3434,7 +3434,7 @@ PrefabInstance:
     - target: {fileID: 3953416456277328470, guid: 9cad2d8778753f34fb75b0ec378de9c4,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 6.7
       objectReference: {fileID: 0}
     - target: {fileID: 3953416456277328470, guid: 9cad2d8778753f34fb75b0ec378de9c4,
         type: 3}
@@ -3576,7 +3576,7 @@ PrefabInstance:
     - target: {fileID: 3953416456277328470, guid: 9cad2d8778753f34fb75b0ec378de9c4,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 8.8
       objectReference: {fileID: 0}
     - target: {fileID: 3953416456277328470, guid: 9cad2d8778753f34fb75b0ec378de9c4,
         type: 3}
@@ -4745,7 +4745,7 @@ PrefabInstance:
     - target: {fileID: 6130266684416536302, guid: 152cddc5c4630244e99e312d8b51f5c6,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 100
+      value: 162
       objectReference: {fileID: 0}
     - target: {fileID: 6130266684416536302, guid: 152cddc5c4630244e99e312d8b51f5c6,
         type: 3}
@@ -5648,7 +5648,7 @@ PrefabInstance:
     - target: {fileID: 6130266684416536302, guid: 152cddc5c4630244e99e312d8b51f5c6,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 100
+      value: 140
       objectReference: {fileID: 0}
     - target: {fileID: 6130266684416536302, guid: 152cddc5c4630244e99e312d8b51f5c6,
         type: 3}
@@ -5808,7 +5808,7 @@ PrefabInstance:
     - target: {fileID: 6130266684416536302, guid: 152cddc5c4630244e99e312d8b51f5c6,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 100
+      value: 155
       objectReference: {fileID: 0}
     - target: {fileID: 6130266684416536302, guid: 152cddc5c4630244e99e312d8b51f5c6,
         type: 3}
