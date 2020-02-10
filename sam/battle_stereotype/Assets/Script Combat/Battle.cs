@@ -62,7 +62,7 @@ public class Battle : MonoBehaviour
         if (index[1].Contains("*"))
         {
             //index[1].Remove(0, 1);
-            goodAnswer = index[1].ToString();
+            goodAnswer = index[1][1].ToString();
             
         }
         else if (index[2].Contains("*"))
