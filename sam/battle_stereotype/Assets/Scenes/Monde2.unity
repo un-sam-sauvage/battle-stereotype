@@ -272,10 +272,10 @@ GameObject:
   - component: {fileID: 114661608}
   - component: {fileID: 114661607}
   - component: {fileID: 114661606}
-  - component: {fileID: 114661610}
   - component: {fileID: 114661611}
   - component: {fileID: 114661612}
   - component: {fileID: 114661613}
+  - component: {fileID: 114661610}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -367,11 +367,11 @@ RectTransform:
   - {fileID: 1125079548}
   - {fileID: 597789011}
   - {fileID: 527189291}
-  - {fileID: 326824816621225171}
+  - {fileID: 1172252485}
   - {fileID: 1312553068}
   - {fileID: 424562409}
   - {fileID: 825499484}
-  - {fileID: 1172252485}
+  - {fileID: 326824816621225171}
   - {fileID: 604677780}
   - {fileID: 774480072}
   - {fileID: 1864895263}
@@ -394,11 +394,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 114661605}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86820e035a8c8cc4192215a7ce672d82, type: 3}
+  m_Script: {fileID: 11500000, guid: 30d37b50044e87b4e97981525ecd35c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   index: []
-  data: []
   listData: []
   randomNumber: 0
   goodAnswer: 
@@ -408,15 +407,15 @@ MonoBehaviour:
   rep2: {fileID: 0}
   rep3: {fileID: 0}
   myAnswer: {fileID: 0}
-  monstre1: {fileID: 273538370}
-  monstre2: {fileID: 1125079547}
-  monstre3: {fileID: 597789010}
-  boss: {fileID: 592347168}
-  sceneCredits: "Cr\xE9dits"
+  monstre1: {fileID: 0}
+  monstre2: {fileID: 0}
+  monstre3: {fileID: 0}
+  boss: {fileID: 0}
+  sceneCredits: 
   countDown: 1
-  imageFade: {fileID: 1312553064}
-  bossBubble: {fileID: 364567925}
-  mainTuto: {fileID: 2015306342}
+  imageFade: {fileID: 0}
+  bossBubble: {fileID: 0}
+  mainTuto: {fileID: 0}
 --- !u!114 &114661611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -529,12 +528,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 269585671}
   m_CullTransparentMesh: 0
---- !u!1 &273538370 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6130266684416536297, guid: 152cddc5c4630244e99e312d8b51f5c6,
-    type: 3}
-  m_PrefabInstance: {fileID: 860923252}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &348963704
 GameObject:
   m_ObjectHideFlags: 0
@@ -1379,12 +1372,6 @@ PrefabInstance:
       objectReference: {fileID: 2114442038}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 152cddc5c4630244e99e312d8b51f5c6, type: 3}
---- !u!1 &592347168 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6130266684416536297, guid: 152cddc5c4630244e99e312d8b51f5c6,
-    type: 3}
-  m_PrefabInstance: {fileID: 592347167}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &592347169 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6130266684416536302, guid: 152cddc5c4630244e99e312d8b51f5c6,
@@ -1551,12 +1538,6 @@ PrefabInstance:
       objectReference: {fileID: 2114442038}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 152cddc5c4630244e99e312d8b51f5c6, type: 3}
---- !u!1 &597789010 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6130266684416536297, guid: 152cddc5c4630244e99e312d8b51f5c6,
-    type: 3}
-  m_PrefabInstance: {fileID: 597789009}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &597789011 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6130266684416536302, guid: 152cddc5c4630244e99e312d8b51f5c6,
@@ -2943,12 +2924,6 @@ PrefabInstance:
       objectReference: {fileID: 2114442038}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 152cddc5c4630244e99e312d8b51f5c6, type: 3}
---- !u!1 &1125079547 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6130266684416536297, guid: 152cddc5c4630244e99e312d8b51f5c6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1125079546}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1125079548 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6130266684416536302, guid: 152cddc5c4630244e99e312d8b51f5c6,
@@ -5013,7 +4988,7 @@ PrefabInstance:
     - target: {fileID: 3340352251550035134, guid: 53c2b3e39248fea4c9c55ade8d6cdadf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 3340352251550035134, guid: 53c2b3e39248fea4c9c55ade8d6cdadf,
         type: 3}
