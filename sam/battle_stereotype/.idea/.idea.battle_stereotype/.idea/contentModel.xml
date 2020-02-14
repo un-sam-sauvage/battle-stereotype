@@ -70,6 +70,7 @@
         </e>
         <e p="Map" t="Include">
           <e p="FeuilleAnim.cs" t="Include" />
+          <e p="LoadMonde1.cs" t="Include" />
           <e p="ManagerMap.cs" t="Include" />
           <e p="moveCrows.cs" t="Include" />
           <e p="SpawnLeaves.cs" t="Include" />

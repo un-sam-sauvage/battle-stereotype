@@ -2,17 +2,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ManagerMap : MonoBehaviour
 {    
     public static int nbLvlAllow=1;
     public GameObject[] button;
 
-    private void Start()
+    public void LoadScene()
     {
-        for (int i = 0; i < nbLvlAllow; i++)
-        {
-            button[i].SetActive(true);
-        }
+        SceneManager.LoadScene("MainScene");
     }
 }
