@@ -19,12 +19,12 @@ public class Swipe : MonoBehaviour
         //Effectue la translation vers le haut ou le bas
         if (_swipeUp && !triggerBas)
         {
-            gameObject.transform.position += Vector3.up*7;
+            gameObject.transform.position += Vector3.up*Time.deltaTime*4;
         }
 
         if (_swipeDown && !triggerHaut)
         {
-            gameObject.transform.position += Vector3.down*7;
+            gameObject.transform.position += Vector3.down*Time.deltaTime*5;
         }
         
         _swipeDown = _swipeUp = false;
