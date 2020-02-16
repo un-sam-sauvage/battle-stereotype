@@ -7,10 +7,13 @@ using UnityEngine.SceneManagement;
 public class ManagerMap : MonoBehaviour
 {    
     public static int nbLvlAllow=1;
-    public GameObject[] button;
+    public GameObject[] triggerLevel;
 
-    public void LoadScene()
+    private void Start()
     {
-        SceneManager.LoadScene("MainScene");
+        for (int i = 0; i < nbLvlAllow; i++)
+        {
+            triggerLevel[i].SetActive(true);
+        }
     }
 }
