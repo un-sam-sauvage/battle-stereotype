@@ -301,7 +301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92380db5f2b5b4a4fa1f8ef22b53ba38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneNameToLoad: youpi
+  sceneNameToLoad: MainScene
 --- !u!61 &360109974
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1353,7 +1353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92380db5f2b5b4a4fa1f8ef22b53ba38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneNameToLoad: youpi2
+  sceneNameToLoad: Monde2
 --- !u!61 &1777987337
 BoxCollider2D:
   m_ObjectHideFlags: 0
