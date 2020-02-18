@@ -62,26 +62,30 @@ public class Battle_Monde2 : MonoBehaviour
         if (index[1].Contains("*"))
         {
             //index[1].Remove(0, 1);
-            goodAnswer = index[1].ToString();
+            goodAnswer = index[1].Substring(1, index[1].Length - 1);
+            rep1.text = goodAnswer;
+            rep2.text = index[2].ToString();
+            rep3.text = index[3].ToString();
             
         }
         else if (index[2].Contains("*"))
         {
             //index[2].Remove(0, 1);
-            goodAnswer = index[2].ToString();
+            goodAnswer = index[2].Substring(1, index[2].Length - 1);
+            rep1.text = index[1].ToString();
+            rep2.text = goodAnswer;
+            rep3.text = index[3].ToString();
         }
         else
         {
             //index[3].Remove(0, 1);
-            goodAnswer = index[3].ToString();
+            goodAnswer = index[3].Substring(1, index[3].Length - 1);
+            rep1.text = index[1].ToString();
+            rep2.text = index[2].ToString();
+            rep3.text = goodAnswer;
         }
 
         stereotype.text = index[0].ToString();
-        
-        rep1.text = index[1].ToString();
-        rep2.text = index[2].ToString();
-        rep3.text = index[3].ToString();
-        
     }
 
     public void VerifAnswer(TMP_Text selectedAnswer)
