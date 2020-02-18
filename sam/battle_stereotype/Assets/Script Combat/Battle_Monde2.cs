@@ -32,12 +32,12 @@ public class Battle_Monde2 : MonoBehaviour
 
     public Image bossBubble;
 
-    public GameObject mainTuto;
+    //public GameObject mainTuto;
     private bool _firstAnswer;
 
     void Awake()
     {
-        DataBase dataBase = FindObjectOfType<DataBase>();
+        DataBase_Monde2 dataBase = FindObjectOfType<DataBase_Monde2>();
         listData = dataBase.listData;
     }
     
@@ -101,7 +101,7 @@ public class Battle_Monde2 : MonoBehaviour
             //désative le tutoriel.
             if (_firstAnswer)
             {
-                mainTuto.SetActive(false);
+                //mainTuto.SetActive(false);
                 _firstAnswer = false;
             }
             

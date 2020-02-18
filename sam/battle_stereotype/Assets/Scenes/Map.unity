@@ -267,14 +267,14 @@ GameObject:
   m_Component:
   - component: {fileID: 360109972}
   - component: {fileID: 360109974}
-  - component: {fileID: 360109973}
+  - component: {fileID: 360109975}
   m_Layer: 0
   m_Name: bouton niveau1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &360109972
 Transform:
   m_ObjectHideFlags: 0
@@ -289,19 +289,6 @@ Transform:
   m_Father: {fileID: 1108650287}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &360109973
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 360109971}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92380db5f2b5b4a4fa1f8ef22b53ba38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneNameToLoad: MainScene
 --- !u!61 &360109974
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -328,6 +315,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.035038, y: 1.2097094}
   m_EdgeRadius: 0
+--- !u!114 &360109975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360109971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f04a1549349146d4ea1004eae357a6eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneNameToLoad: MainScene
 --- !u!1 &402890180
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,7 +403,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &485958631
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1326,7 +1326,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1777987335
 Transform:
   m_ObjectHideFlags: 0
@@ -1350,7 +1350,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1777987334}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92380db5f2b5b4a4fa1f8ef22b53ba38, type: 3}
+  m_Script: {fileID: 11500000, guid: f04a1549349146d4ea1004eae357a6eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sceneNameToLoad: Monde2

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6130266684416536300}
   - component: {fileID: 6130266684416536303}
   m_Layer: 5
-  m_Name: slotboss
+  m_Name: slotmonstre1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
