@@ -86,6 +86,7 @@ public class Battle_Monde2 : MonoBehaviour
 
     public void VerifAnswer(TMP_Text selectedAnswer)
     {
+        Debug.Log(selectedAnswer.text);
         
         myAnswer.text = selectedAnswer.text;
         

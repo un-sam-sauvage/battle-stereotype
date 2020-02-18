@@ -44,6 +44,7 @@ public class DragNDrop_Monde2 : MonoBehaviour, IDragHandler, IEndDragHandler, IB
         transform.position = startPosition;
         if (enabledTransfer == true)
         {
+            Debug.Log("stzd");
             Battle_Monde2 battle = FindObjectOfType<Battle_Monde2>();
             battle.VerifAnswer(answerDragged);
         }
