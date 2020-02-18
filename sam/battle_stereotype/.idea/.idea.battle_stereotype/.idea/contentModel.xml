@@ -91,6 +91,7 @@
         </e>
         <e p="Monde2" t="Include">
           <e p="DragNDrop_Monde2.cs" t="Include" />
+          <e p="MobDetectCollision_Monde2.cs" t="Include" />
         </e>
         <e p="Music" t="Include">
           <e p="AudioManager.cs" t="Include" />

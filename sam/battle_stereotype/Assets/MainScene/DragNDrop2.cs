@@ -44,7 +44,6 @@ public class DragNDrop2 : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDr
         transform.position = startPosition;
         if (enabledTransfer == true)
         {
-            Debug.Log("stzd");
             Battle battle = FindObjectOfType<Battle>();
             battle.VerifAnswer(answerDragged);
         }

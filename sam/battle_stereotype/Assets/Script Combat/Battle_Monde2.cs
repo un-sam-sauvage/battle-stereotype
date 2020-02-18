@@ -174,7 +174,7 @@ public class Battle_Monde2 : MonoBehaviour
 
             if (countDown <= 0)
             {
-                SceneManager.LoadScene("Monde2");
+                SceneManager.LoadScene("Crédits");
             }
 
         }
