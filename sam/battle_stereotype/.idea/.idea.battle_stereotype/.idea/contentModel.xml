@@ -89,6 +89,9 @@
             <e p="DeathByScaling.cs" t="Include" />
           </e>
         </e>
+        <e p="Monde2" t="Include">
+          <e p="DragNDrop_Monde2.cs" t="Include" />
+        </e>
         <e p="Music" t="Include">
           <e p="AudioManager.cs" t="Include" />
           <e p="PlayMenuMusic.cs" t="Include" />
