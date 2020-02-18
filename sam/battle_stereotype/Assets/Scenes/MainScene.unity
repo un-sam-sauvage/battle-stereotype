@@ -3247,7 +3247,7 @@ PrefabInstance:
         type: 3}
       propertyPath: answerDragged
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1529821420}
     - target: {fileID: 72530289765775054, guid: 7d971cf40f8c82a42b0e8aedb5d42538,
         type: 3}
       propertyPath: text
@@ -3539,32 +3539,12 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1529821418}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1529821421}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1529821421 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 202796678243812791, guid: 7d971cf40f8c82a42b0e8aedb5d42538,
-    type: 3}
-  m_PrefabInstance: {fileID: 1529821418}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1529821422
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1529821421}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c82b27a866765dc4fbc55321c3fb3319, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulleFoule: {fileID: 0}
-  answerDragged: {fileID: 0}
 --- !u!1001 &1582189952
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3864,7 +3844,7 @@ PrefabInstance:
         type: 3}
       propertyPath: answerDragged
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1582189954}
     - target: {fileID: 5665434721834881180, guid: 9a9489e56dd1efd409880b99eb972f0a,
         type: 3}
       propertyPath: text
@@ -3889,32 +3869,12 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1582189952}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1582189955}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1582189955 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6286822450662037283, guid: 9a9489e56dd1efd409880b99eb972f0a,
-    type: 3}
-  m_PrefabInstance: {fileID: 1582189952}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1582189956
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1582189955}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c82b27a866765dc4fbc55321c3fb3319, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulleFoule: {fileID: 0}
-  answerDragged: {fileID: 0}
 --- !u!1001 &1586984375
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4082,7 +4042,7 @@ PrefabInstance:
         type: 3}
       propertyPath: answerDragged
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1586984377}
     - target: {fileID: 3499966579081822029, guid: bc5d1e6f628041746bf5a47cce0c2339,
         type: 3}
       propertyPath: text
@@ -4224,32 +4184,12 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1586984375}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1586984378}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1586984378 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5800185827285448378, guid: bc5d1e6f628041746bf5a47cce0c2339,
-    type: 3}
-  m_PrefabInstance: {fileID: 1586984375}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1586984379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1586984378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c82b27a866765dc4fbc55321c3fb3319, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulleFoule: {fileID: 0}
-  answerDragged: {fileID: 0}
 --- !u!1 &1649964446
 GameObject:
   m_ObjectHideFlags: 0
