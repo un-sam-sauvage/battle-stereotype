@@ -102,8 +102,12 @@
         <e p="Script Combat" t="Include">
           <e p="Battle.cs" t="Include" />
           <e p="Battle_Monde2.cs" t="Include" />
+          <e p="BattleOffline.cs" t="Include" />
+          <e p="BattleOffline_Monde2.cs" t="Include" />
           <e p="DataBase.cs" t="Include" />
           <e p="DataBase_Monde2.cs" t="Include" />
+          <e p="DataBaseOffline_Monde1.cs" t="Include" />
+          <e p="DataBaseOffline_Monde2.cs" t="Include" />
         </e>
         <e p="script_menu_start" t="Include">
           <e p="changement_scene_menu_start.cs" t="Include" />
@@ -191,6 +195,73 @@
           </e>
           <e p="Sprites" t="Include">
             <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
+        <e p="XlsxParser" t="Include">
+          <e p="Examples" t="Include">
+            <e p="link.xml" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="Object3D.cs" t="Include" />
+              <e p="XlsxParser_01_Basics.cs" t="Include" />
+              <e p="XlsxParser_02_ObjectMapping.cs" t="Include" />
+              <e p="XlsxParser_03_TableWatching.cs" t="Include" />
+              <e p="XlsxParser_04_TablePatching.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="CellRef.cs" t="Include" />
+            <e p="DataSet.cs" t="Include" />
+            <e p="DataTable.cs" t="Include" />
+            <e p="DataTableSchema.cs" t="Include" />
+            <e p="ExtensionMethods.cs" t="Include" />
+            <e p="Internal" t="Include">
+              <e p="Compression" t="Include">
+                <e p="BlockType.cs" t="Include" />
+                <e p="CompressionMode.cs" t="Include" />
+                <e p="CopyEncoder.cs" t="Include" />
+                <e p="Crc32Helper.cs" t="Include" />
+                <e p="DeflateInput.cs" t="Include" />
+                <e p="DeflaterManaged.cs" t="Include" />
+                <e p="DeflateStream.cs" t="Include" />
+                <e p="DeflateStreamAsyncResult.cs" t="Include" />
+                <e p="FastEncoder.cs" t="Include" />
+                <e p="FastEncoderStatics.cs" t="Include" />
+                <e p="FastEncoderWindow.cs" t="Include" />
+                <e p="FileFormats.cs" t="Include" />
+                <e p="GZipDecoder.cs" t="Include" />
+                <e p="GZipStream.cs" t="Include" />
+                <e p="GZipUtils.cs" t="Include" />
+                <e p="HuffmanTree.cs" t="Include" />
+                <e p="IDeflater.cs" t="Include" />
+                <e p="Inflater.cs" t="Include" />
+                <e p="InflaterState.cs" t="Include" />
+                <e p="InputBuffer.cs" t="Include" />
+                <e p="InvalidDataException.cs" t="Include" />
+                <e p="Match.cs" t="Include" />
+                <e p="MatchState.cs" t="Include" />
+                <e p="OutputBuffer.cs" t="Include" />
+                <e p="OutputWindow.cs" t="Include" />
+                <e p="SR.cs" t="Include" />
+              </e>
+              <e p="Cryptography" t="Include">
+                <e p="GeneralDigest.cs" t="Include" />
+                <e p="IMemoable.cs" t="Include" />
+                <e p="MD2Digest.cs" t="Include" />
+                <e p="MD4Digest.cs" t="Include" />
+                <e p="RipeMD128Digest.cs" t="Include" />
+                <e p="RipeMD160Digest.cs" t="Include" />
+                <e p="WhirlpoolDigest.cs" t="Include" />
+              </e>
+              <e p="DataTableBuilder.cs" t="Include" />
+              <e p="DataTablePopulator.cs" t="Include" />
+              <e p="ExtraHashAlgorithm.cs" t="Include" />
+              <e p="XlsxDecryption.cs" t="Include" />
+              <e p="XlsxReader.cs" t="Include" />
+              <e p="ZipEntry.cs" t="Include" />
+            </e>
+            <e p="ReturnMessages.cs" t="Include" />
+            <e p="XlsxParser.cs" t="Include" />
+            <e p="XlsxRequest.cs" t="Include" />
           </e>
         </e>
       </e>
