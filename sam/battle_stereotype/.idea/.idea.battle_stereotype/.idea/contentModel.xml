@@ -100,14 +100,16 @@
           <e p="Sound.cs" t="Include" />
         </e>
         <e p="Script Combat" t="Include">
+          <e p="BADO_Monde1.txt" t="Include" />
+          <e p="BADO_Monde3.txt" t="Include" />
           <e p="Battle.cs" t="Include" />
           <e p="Battle_Monde2.cs" t="Include" />
           <e p="BattleOffline.cs" t="Include" />
-          <e p="BattleOffline_Monde2.cs" t="Include" />
+          <e p="BattleOffline_Monde3.cs" t="Include" />
           <e p="DataBase.cs" t="Include" />
           <e p="DataBase_Monde2.cs" t="Include" />
           <e p="DataBaseOffline_Monde1.cs" t="Include" />
-          <e p="DataBaseOffline_Monde2.cs" t="Include" />
+          <e p="DataBaseOffline_Monde3.cs" t="Include" />
         </e>
         <e p="script_menu_start" t="Include">
           <e p="changement_scene_menu_start.cs" t="Include" />

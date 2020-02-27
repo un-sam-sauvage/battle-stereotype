@@ -7,9 +7,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class DataBaseOffline_Monde1 : MonoBehaviour
+public class DataBaseOffline_Monde3 : MonoBehaviour
 {
-    public TextAsset badoMonde1;
+    public TextAsset badoMonde3;
     public List<string> listData = new List<string>();
     public string infoData;
     
@@ -22,7 +22,7 @@ public class DataBaseOffline_Monde1 : MonoBehaviour
     public void Bado()
     {
         StringBuilder str = new StringBuilder();
-        str.Append(badoMonde1.text);
+        str.Append(badoMonde3.text);
 
         infoData = str.ToString();
         

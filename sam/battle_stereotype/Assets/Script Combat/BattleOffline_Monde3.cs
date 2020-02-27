@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 using GoogleSheetsToUnity;
 using JetBrains.Annotations;
 
-public class BattleOffline : MonoBehaviour
+public class BattleOffline_Monde3 : MonoBehaviour
 {
     public string[] index;
 
@@ -37,7 +37,7 @@ public class BattleOffline : MonoBehaviour
 
     void Awake()
     {
-        DataBaseOffline_Monde1 dataBase = FindObjectOfType<DataBaseOffline_Monde1>();
+        DataBaseOffline_Monde3 dataBase = FindObjectOfType<DataBaseOffline_Monde3>();
         listData = dataBase.listData;
     }
     
